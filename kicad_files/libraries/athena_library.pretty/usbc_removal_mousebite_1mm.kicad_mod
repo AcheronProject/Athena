@@ -1,0 +1,16 @@
+(footprint "usbc_removal_mousebite_1mm" (version 20210424) (generator pcbnew) (layer "F.Cu")
+  (tedit 605BDE93)
+  (property "Sheetfile" "apollo87h.kicad_sch")
+  (property "Sheetname" "")
+  (property "exclude_from_bom" "")
+  (attr through_hole exclude_from_bom)
+  (fp_text reference "Me3" (at 0 0) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+    (tstamp 69a72d9a-ce73-4b65-bba8-0d1da6157c6d)
+  )
+  (fp_text value "USB removal mousebite" (at 0.75 0) (layer "F.SilkS") hide
+    (effects (font (size 1.524 1.524) (thickness 0.3)))
+    (tstamp a32f1061-be1a-4c4d-939d-14dfe721089c)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 1) (layers "F.SilkS") (tstamp 672eebb8-9c8a-4d62-9670-b74286e89df9))
+)
