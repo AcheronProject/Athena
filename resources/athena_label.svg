@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="35.299995mm"
+   height="5.9105887mm"
+   viewBox="0 0 35.299996 5.9105886"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="athena_label.svg"
+   inkscape:export-filename="/home/alvaro/Desktop/AcheronProject/Athena/resources/athena_label.png"
+   inkscape:export-xdpi="5000"
+   inkscape:export-ydpi="5000"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="7.2466937"
+     inkscape:cx="101.77055"
+     inkscape:cy="51.126764"
+     inkscape:window-width="1310"
+     inkscape:window-height="969"
+     inkscape:window-x="2233"
+     inkscape:window-y="512"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="-196.86472"
+       y="554.54724"
+       width="1358.4165"
+       height="266.30865"
+       id="rect1881" />
+    <rect
+       x="-196.86472"
+       y="554.54724"
+       width="1358.4165"
+       height="266.30865"
+       id="rect16" />
+    <rect
+       x="-196.86472"
+       y="554.54724"
+       width="1358.4165"
+       height="266.30865"
+       id="rect131" />
+    <rect
+       x="-196.86472"
+       y="554.54724"
+       width="1358.4165"
+       height="266.30865"
+       id="rect6377" />
+    <rect
+       x="-196.86472"
+       y="554.54724"
+       width="1358.4165"
+       height="266.30865"
+       id="rect31" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(53.886372,-66.693048)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.04294695,0,0,0.04294695,-56.951567,42.716015)"
+       id="text129"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect131);fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:6.98536;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="407.4794"
+       y="0"><tspan
+         x="135.78426"
+         y="589.94687"
+         id="tspan1544"><tspan
+           style="font-family:Pirulen;-inkscape-font-specification:Pirulen"
+           id="tspan1542">ATHENA rev. pre-alpha
+</tspan></tspan><tspan
+         x="72.264328"
+         y="641.18687"
+         id="tspan1548"><tspan
+           style="font-family:Pirulen;-inkscape-font-specification:Pirulen"
+           id="tspan1546">designed by gondolindrim
+</tspan></tspan><tspan
+         x="98.96431"
+         y="692.42686"
+         id="tspan1552"><tspan
+           style="font-family:Pirulen;-inkscape-font-specification:Pirulen"
+           id="tspan1550">for the acheronproject</tspan></tspan></text>
+  </g>
+</svg>

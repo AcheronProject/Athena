@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="22mm"
+   height="2.733501mm"
+   viewBox="0 0 22 2.7335009"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="athena_letters.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.64052329"
+     inkscape:cx="594.04553"
+     inkscape:cy="127.23971"
+     inkscape:window-width="1310"
+     inkscape:window-height="969"
+     inkscape:window-x="2530"
+     inkscape:window-y="367"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="-196.86472"
+       y="554.54724"
+       width="1358.4165"
+       height="266.30865"
+       id="rect1881" />
+    <rect
+       x="-196.86472"
+       y="554.54724"
+       width="1358.4165"
+       height="266.30865"
+       id="rect16" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(52.087259,-114.88289)">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1879"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1881);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="-196.86523"
+         y="589.94687"
+         id="tspan87"><tspan
+           style="font-family:Pirulen;-inkscape-font-specification:Pirulen"
+           id="tspan85">ATHENA</tspan></tspan></text>
+    <g
+       aria-label="ATHENA"
+       transform="matrix(0.09707035,0,0,0.09707035,-32.977482,60.350045)"
+       id="text14"
+       style="font-size:40px;line-height:1.25;white-space:pre;shape-inside:url(#rect16)">
+      <path
+         d="m -155.66523,589.94687 -18.6,-28.16 h -3.88 l -18.72,28.16 h 5.92 l 14.76,-22.67999 14.52,22.67999 z"
+         style="font-family:Pirulen;-inkscape-font-specification:Pirulen"
+         id="path18" />
+      <path
+         d="m -141.5853,589.94687 v -24 h 14.36 v -4.16 h -34.44 v 4.16 h 14.76 v 24 z"
+         style="font-family:Pirulen;-inkscape-font-specification:Pirulen"
+         id="path20" />
+      <path
+         d="m -89.985335,589.94687 v -28.16 h -5.32 v 11.2 h -23.040005 v -11.2 h -5.32 v 28.16 h 5.32 v -12.79999 h 23.040005 v 12.79999 z"
+         style="font-family:Pirulen;-inkscape-font-specification:Pirulen"
+         id="path22" />
+      <path
+         d="m -55.825406,589.94687 v -4.16 h -23.64 v -8.63999 h 22.44 v -4.16001 h -22.44 v -7.04 h 23.64 v -4.16 h -28.96 v 28.16 z"
+         style="font-family:Pirulen;-inkscape-font-specification:Pirulen"
+         id="path24" />
+      <path
+         d="m -14.025411,589.94687 v -28.16 h -4.64 v 20.92 l -28.04,-20.92 h -4.6 v 28.16 h 4.64 v -21.91999 l 30.04,21.91999 z"
+         style="font-family:Pirulen;-inkscape-font-specification:Pirulen"
+         id="path26" />
+      <path
+         d="m 29.774524,589.94687 -18.6,-28.16 H 7.2945239 l -18.7199999,28.16 h 5.9199999 l 14.76,-22.67999 14.5200001,22.67999 z"
+         style="font-family:Pirulen;-inkscape-font-specification:Pirulen"
+         id="path28" />
+    </g>
+  </g>
+</svg>
