@@ -106,7 +106,7 @@
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
-        "max_error": 0.005,
+        "max_error": 0.01,
         "min_clearance": 0.19999999999999998,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.35,
