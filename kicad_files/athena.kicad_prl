@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 44,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_nets": [],
@@ -64,7 +64,7 @@
       36
     ],
     "visible_layers": "007ffff_80000001",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "athena.kicad_prl",
