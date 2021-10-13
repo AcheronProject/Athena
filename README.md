@@ -23,7 +23,7 @@ Both Apollo and Athena line of PCBs were designed to be "universal" TKL PCBs, th
 - Layout size: tenkeykess (TKL)
 - Compatible switches: MX-like only, solderable
 - Lighting: single colors per-key through-hole LEDs, RGB underglow
-- Microcontroller: STM32F072CxT6 (x can be either 8 or B)
+- Microcontroller: STM32 family (see [the Joker topologyt documentaton](https://acheronproject.com/multimcu_article/multimcu_article/))
 - Connector: detachable USB Type C on the top side and JST connector for daughterboard support
 - Firmware compatibility: QMK (with VIA support)
 - Protection hardware:
@@ -33,7 +33,7 @@ Both Apollo and Athena line of PCBs were designed to be "universal" TKL PCBs, th
   * Overcurrent protection
   * LDO crowbar diode
   * EMI suppression (shielding ferrite bead)
-- Current release: no releases as of may 06, 2021
+- Current release: release Alpha-RC1 (pre-release candidate)
 - Designer: Gondolindrim
 - License: Acheron Open-Source Hardware License version 1.3
 
