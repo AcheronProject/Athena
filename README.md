@@ -51,8 +51,6 @@ Both Apollo and Athena line of PCBs were designed to be "universal" TKL PCBs, th
 
 ## Acknowledgements
 
-- The first prototypes of this PCB were paid for and tested by KeebsForAll, who also intends to make units of this PCB available for purchase.
-
 - Geon, who kindly spent time helping design this PCB to fit his keyboards.
 
 ## Copyright notice
