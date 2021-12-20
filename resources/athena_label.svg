@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="35.299995mm"
-   height="5.9105887mm"
-   viewBox="0 0 35.299996 5.9105886"
+   width="37.750114mm"
+   height="6.3208222mm"
+   viewBox="0 0 37.750115 6.3208221"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
@@ -28,7 +28,7 @@
      showgrid="false"
      inkscape:zoom="7.2466937"
      inkscape:cx="68.307013"
-     inkscape:cy="38.983295"
+     inkscape:cy="27.943778"
      inkscape:window-width="1920"
      inkscape:window-height="1043"
      inkscape:window-x="1920"
@@ -72,30 +72,30 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(53.886372,-66.693048)">
+     transform="translate(53.896814,-66.682638)">
     <text
        xml:space="preserve"
-       transform="matrix(0.04294695,0,0,0.04294695,-56.951567,42.716015)"
+       transform="matrix(0.04592775,0,0,0.04592775,-57.17472,41.041442)"
        id="text129"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect131);fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect131);fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:6.98536;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="407.4794"
        y="0"><tspan
-         x="141.54366"
+         x="165.7037"
          y="589.94687"
-         id="tspan4107"><tspan
+         id="tspan897"><tspan
            style="font-family:Pirulen;-inkscape-font-specification:Pirulen"
-           id="tspan4105">ATHENA rev. alpha RC1
+           id="tspan895">ATHENA rev. beta RC1
 </tspan></tspan><tspan
          x="72.263603"
          y="641.18687"
-         id="tspan4111"><tspan
+         id="tspan901"><tspan
            style="font-family:Pirulen;-inkscape-font-specification:Pirulen"
-           id="tspan4109">designed by gondolindrim
+           id="tspan899">designed by gondolindrim
 </tspan></tspan><tspan
          x="98.963699"
          y="692.42686"
-         id="tspan4115"><tspan
+         id="tspan905"><tspan
            style="font-family:Pirulen;-inkscape-font-specification:Pirulen"
-           id="tspan4113">for the acheronproject</tspan></tspan></text>
+           id="tspan903">for the acheronproject</tspan></tspan></text>
   </g>
 </svg>
