@@ -7,7 +7,7 @@
   (title_block
     (title "Athena PCB schematic")
     (date "2022-01-20")
-    (rev "V2.0.0")
+    (rev "V2.0.1")
     (company "Acheron Project")
     (comment 1 "Designed by Gondolindrim")
   )
