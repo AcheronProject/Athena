@@ -3977,6 +3977,9 @@
   (junction (at 824.865 571.5) (diameter 0.9144) (color 0 0 0 0)
     (uuid e87738fc-e372-4c48-9de9-398fd8b4874c)
   )
+  (junction (at 318.77 71.755) (diameter 0) (color 0 0 0 0)
+    (uuid ea30ce21-08ee-4a9c-a8c6-f0313ab167e5)
+  )
   (junction (at 81.28 658.495) (diameter 1.016) (color 0 0 0 0)
     (uuid ea6fde00-59dc-4a79-a647-7e38199fae0e)
   )
@@ -5380,6 +5383,10 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 3be1e2c9-7487-4d91-a262-5aa10c300a70)
   )
+  (wire (pts (xy 318.77 68.58) (xy 318.77 71.755))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 3be80700-423c-4946-9599-8007ad4c24a2)
+  )
   (wire (pts (xy 195.58 643.255) (xy 195.58 683.895))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 3bfa6a04-223a-41dc-a478-ce3c28f706ce)
@@ -6448,6 +6455,10 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 6a7c3898-d8ad-4e9d-885a-cdf22a3d5f37)
   )
+  (wire (pts (xy 318.77 71.755) (xy 325.755 71.755))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 6accb518-3e68-4eea-991e-ec82b8e0ce20)
+  )
   (wire (pts (xy 638.81 82.55) (xy 638.81 84.455))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 6b1b0bbc-1e17-420a-abb0-718fa5fd955f)
@@ -6730,6 +6741,10 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 76a3244b-8471-4033-a5bb-8ea73ede8cd6)
   )
+  (wire (pts (xy 318.77 68.58) (xy 320.04 68.58))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 76a3d48b-f906-4bca-afdc-4f29573e7d15)
+  )
   (wire (pts (xy 300.355 158.75) (xy 300.355 160.655))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 76c79972-a58d-4707-8646-2c7f7214fc85)
@@ -6757,6 +6772,10 @@
   (wire (pts (xy 377.19 530.225) (xy 377.19 528.955))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 77624909-dcde-4755-8662-96cf2f98d1e5)
+  )
+  (wire (pts (xy 325.12 68.58) (xy 327.025 68.58))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 77a8f30b-009e-4e9e-a3bd-88d4eeffaefc)
   )
   (wire (pts (xy 233.68 579.755) (xy 208.28 579.755))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -8108,6 +8127,10 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid aed47c88-dd3f-4478-b9f4-d60d4361b084)
   )
+  (wire (pts (xy 315.595 71.755) (xy 318.77 71.755))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid aee55047-1d1a-49f7-90c4-533ae125ee1b)
+  )
   (wire (pts (xy 220.98 683.895) (xy 220.98 724.535))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid aef12839-0c85-43b8-b739-15c05d440a32)
@@ -8378,7 +8401,7 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid bb8c3ad2-b16b-46ff-866c-64d27b38afb8)
   )
-  (wire (pts (xy 1028.065 547.37) (xy 1028.065 549.91))
+  (wire (pts (xy 1028.065 549.91) (xy 1028.065 552.45))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid bbd5ebda-8388-4b27-a8c3-a919ea666c0b)
   )
@@ -10749,6 +10772,13 @@
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
   )
+  (global_label "3V3" (shape input) (at 327.025 68.58 0)
+    (effects (font (size 0.762 0.762)) (justify left))
+    (uuid 986e13fd-842d-4ea0-bb4c-ff66ffd60a21)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 330.5775 68.5324 0)
+      (effects (font (size 0.762 0.762)) (justify left) hide)
+    )
+  )
   (global_label "R2" (shape input) (at 294.005 43.815 90)
     (effects (font (size 1.524 1.524)) (justify left))
     (uuid 9b0cc7be-3a31-4cf8-aa18-b734cb030255)
@@ -10931,10 +10961,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "D+" (shape bidirectional) (at 315.595 71.755 0)
+  (global_label "D+" (shape bidirectional) (at 325.755 71.755 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b4a9260f-2432-4ff1-b6a0-42aca1d10fcf)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 320.8505 71.6756 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 331.0105 71.6756 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -11664,7 +11694,7 @@
   (symbol (lib_id "Device:R_Small") (at 977.265 712.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 03fbd999-de26-4c0d-a0cb-832dfe6c5227)
-    (property "Reference" "R116" (id 0) (at 979.805 711.1999 0)
+    (property "Reference" "R117" (id 0) (at 979.805 711.1999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (id 1) (at 979.805 713.7399 0)
@@ -11826,7 +11856,7 @@
   (symbol (lib_id "Device:R_Small") (at 958.215 617.22 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 07723cf6-b04d-4b9b-9b16-c2e59319c823)
-    (property "Reference" "R69" (id 0) (at 960.755 616.5849 0)
+    (property "Reference" "R70" (id 0) (at 960.755 616.5849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 960.755 619.1249 0)
@@ -12087,7 +12117,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 765.175 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 0a6e3e6d-9c5b-46b3-b4c8-a166bb95fb69)
-    (property "Reference" "LED9" (id 0) (at 768.985 553.0849 90)
+    (property "Reference" "LED10" (id 0) (at 768.985 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 768.985 554.3549 90)
@@ -12124,7 +12154,7 @@
   (symbol (lib_id "Device:R_Small") (at 882.015 640.08 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0b4bbe0c-8cee-4785-a6b5-94a2735bb755)
-    (property "Reference" "R80" (id 0) (at 884.555 639.4449 0)
+    (property "Reference" "R81" (id 0) (at 884.555 639.4449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 884.555 641.9849 0)
@@ -12204,7 +12234,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 850.265 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 0bebf09d-083d-4b60-88d1-2b28969e24c0)
-    (property "Reference" "LED15" (id 0) (at 854.075 553.0849 90)
+    (property "Reference" "LED16" (id 0) (at 854.075 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 854.075 554.3549 90)
@@ -12537,7 +12567,7 @@
   (symbol (lib_id "Device:R_Small") (at 691.515 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 13062705-5ec5-48b3-aa24-4b0e89c9438b)
-    (property "Reference" "R37" (id 0) (at 694.055 575.9449 0)
+    (property "Reference" "R38" (id 0) (at 694.055 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 694.055 578.4849 0)
@@ -12559,7 +12589,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 939.165 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 144a122e-31bb-4f8e-be02-0abcbedfc6e3)
-    (property "Reference" "LED21" (id 0) (at 942.975 553.0849 90)
+    (property "Reference" "LED22" (id 0) (at 942.975 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 942.975 554.3549 90)
@@ -12649,7 +12679,7 @@
   (symbol (lib_id "Device:R_Small") (at 977.265 617.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 157eaf7b-dd80-46ea-b883-612620792395)
-    (property "Reference" "R70" (id 0) (at 979.805 615.9499 0)
+    (property "Reference" "R71" (id 0) (at 979.805 615.9499 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (id 1) (at 979.805 618.4899 0)
@@ -12820,7 +12850,7 @@
   (symbol (lib_id "Device:R_Small") (at 805.815 703.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 188ceca2-1624-4d12-be52-e069af6b196f)
-    (property "Reference" "R109" (id 0) (at 808.355 702.9449 0)
+    (property "Reference" "R110" (id 0) (at 808.355 702.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 808.355 705.4849 0)
@@ -13093,7 +13123,7 @@
   (symbol (lib_id "Device:R_Small") (at 650.875 82.55 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1e4a1eb1-480a-474a-8e7c-f2bec6611185)
-    (property "Reference" "R5" (id 0) (at 648.97 82.55 90)
+    (property "Reference" "R6" (id 0) (at 648.97 82.55 90)
       (effects (font (size 0.762 0.762)))
     )
     (property "Value" "10k" (id 1) (at 650.875 82.55 90)
@@ -13204,7 +13234,7 @@
   (symbol (lib_id "Device:R_Small") (at 729.615 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1fe1e800-65d9-4e11-9e8f-8b9ff7b2d535)
-    (property "Reference" "R39" (id 0) (at 732.155 575.9449 0)
+    (property "Reference" "R40" (id 0) (at 732.155 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 732.155 578.4849 0)
@@ -13226,7 +13256,7 @@
   (symbol (lib_id "Device:R_Small") (at 710.565 680.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 20039910-fc40-409f-a74e-ef01589448f7)
-    (property "Reference" "R93" (id 0) (at 713.105 680.0849 0)
+    (property "Reference" "R94" (id 0) (at 713.105 680.0849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 713.105 682.6249 0)
@@ -13248,7 +13278,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 706.755 52.07 0) (unit 1)
     (in_bom no) (on_board yes)
     (uuid 20d2c6b7-4b2e-4449-b95d-390dc10564dd)
-    (property "Reference" "GR6" (id 0) (at 710.565 51.4349 0)
+    (property "Reference" "GR7" (id 0) (at 710.565 51.4349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Athena Label" (id 1) (at 710.565 53.975 0)
@@ -13318,7 +13348,7 @@
   (symbol (lib_id "Device:R_Small") (at 913.765 544.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 216dc391-d4db-4adf-add1-5af0ef45fa67)
-    (property "Reference" "R29" (id 0) (at 916.305 544.1949 0)
+    (property "Reference" "R30" (id 0) (at 916.305 544.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 916.305 546.7349 0)
@@ -13387,7 +13417,7 @@
   (symbol (lib_id "Device:C") (at 552.45 115.57 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 22e0d835-3c0d-4f15-9b8b-77cf6d7ab190)
-    (property "Reference" "C8" (id 0) (at 555.625 116.84 0)
+    (property "Reference" "C9" (id 0) (at 555.625 116.84 0)
       (effects (font (size 0.762 0.762)) (justify right))
     )
     (property "Value" "1u" (id 1) (at 555.625 115.57 0)
@@ -13623,7 +13653,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 780.415 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 24a772ff-fc9f-44b0-b5ae-213d5173938e)
-    (property "Reference" "LED10" (id 0) (at 784.225 553.0849 90)
+    (property "Reference" "LED11" (id 0) (at 784.225 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 784.225 554.3549 90)
@@ -13813,7 +13843,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 805.815 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 28429823-5227-41e3-9791-72aa9300a9e3)
-    (property "Reference" "LED12" (id 0) (at 809.625 553.0849 90)
+    (property "Reference" "LED13" (id 0) (at 809.625 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 809.625 554.3549 90)
@@ -13869,7 +13899,7 @@
   (symbol (lib_id "Device:R_Small") (at 824.865 608.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2900e587-cee7-47e3-8232-76981f12e169)
-    (property "Reference" "R62" (id 0) (at 827.405 607.6949 0)
+    (property "Reference" "R63" (id 0) (at 827.405 607.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 827.405 610.2349 0)
@@ -14051,7 +14081,7 @@
   (symbol (lib_id "power:GND") (at 501.015 122.555 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2cfe4dd6-4fbc-47b5-8e45-bcacec09a3ce)
-    (property "Reference" "#PWR029" (id 0) (at 501.015 128.905 0)
+    (property "Reference" "#PWR031" (id 0) (at 501.015 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 501.015 125.73 0)
@@ -14069,7 +14099,7 @@
   (symbol (lib_id "Device:R_Small") (at 691.515 544.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2d354345-c46b-4f50-b0bf-1ca4da1e0951)
-    (property "Reference" "R19" (id 0) (at 694.055 544.1949 0)
+    (property "Reference" "R20" (id 0) (at 694.055 544.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 694.055 546.7349 0)
@@ -14121,10 +14151,19 @@
     (property "Datasheet" "~" (id 3) (at 543.56 282.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Package" "SOD-123" (id 4) (at 543.56 282.575 0)
+    (property "Package" "SOD-123FL" (id 4) (at 543.56 282.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Specification" "Unidirectional TVS 6.0V" (id 5) (at 543.56 282.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "SUNMATE Elec" (id 6) (at 543.56 282.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "SMF6.0A" (id 7) (at 543.56 282.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Vendor Part Number" "LCSC C399281" (id 8) (at 543.56 282.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e8ed6654-13d1-4472-b018-b4b147219fe1))
@@ -14235,7 +14274,7 @@
   (symbol (lib_id "Device:R") (at 542.925 116.205 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2e1c2843-7284-4ca6-94c8-d35f34e2b3a6)
-    (property "Reference" "R9" (id 0) (at 544.83 116.205 0)
+    (property "Reference" "R12" (id 0) (at 544.83 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (id 1) (at 542.925 116.205 90)
@@ -14257,7 +14296,7 @@
   (symbol (lib_id "Device:R_Small") (at 748.665 671.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2e1e2558-a7ff-451e-b6eb-b4c80f2640e8)
-    (property "Reference" "R89" (id 0) (at 751.205 671.1949 0)
+    (property "Reference" "R90" (id 0) (at 751.205 671.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 751.205 673.7349 0)
@@ -14471,7 +14510,7 @@
   (symbol (lib_id "Device:R_Small") (at 748.665 608.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 30fe2c55-7fcc-4241-9728-93e5694f9855)
-    (property "Reference" "R58" (id 0) (at 751.205 607.6949 0)
+    (property "Reference" "R59" (id 0) (at 751.205 607.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 751.205 610.2349 0)
@@ -14587,7 +14626,7 @@
   (symbol (lib_id "Device:R_Small") (at 843.915 680.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 321191d0-971e-41fd-aa0a-dde3e2927eb0)
-    (property "Reference" "R97" (id 0) (at 846.455 680.0849 0)
+    (property "Reference" "R98" (id 0) (at 846.455 680.0849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 846.455 682.6249 0)
@@ -14710,7 +14749,7 @@
   (symbol (lib_id "Device:R") (at 507.365 116.205 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 361d0642-9c69-4ccc-8e9d-cbab1016c6e6)
-    (property "Reference" "R8" (id 0) (at 509.27 116.205 0)
+    (property "Reference" "R11" (id 0) (at 509.27 116.205 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (id 1) (at 507.365 116.205 90)
@@ -14942,7 +14981,7 @@
   (symbol (lib_id "Device:R_Small") (at 862.965 680.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 39da5230-0999-4e5e-877c-b2c46bcd4852)
-    (property "Reference" "R98" (id 0) (at 865.505 680.0849 0)
+    (property "Reference" "R99" (id 0) (at 865.505 680.0849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 865.505 682.6249 0)
@@ -15000,7 +15039,7 @@
   (symbol (lib_id "Device:R_Small") (at 882.015 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3a80f352-8312-4bc6-9b47-e1742c85b2d4)
-    (property "Reference" "R47" (id 0) (at 884.555 575.9449 0)
+    (property "Reference" "R48" (id 0) (at 884.555 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 884.555 578.4849 0)
@@ -15173,7 +15212,7 @@
   (symbol (lib_id "Device:R_Small") (at 805.815 680.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3c177710-4931-4306-b05f-2e707ececcb6)
-    (property "Reference" "R96" (id 0) (at 808.355 680.0849 0)
+    (property "Reference" "R97" (id 0) (at 808.355 680.0849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 808.355 682.6249 0)
@@ -15195,7 +15234,7 @@
   (symbol (lib_id "Device:R_Small") (at 843.915 703.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3c305c15-88c8-47cc-acf4-2e156f1ad9c2)
-    (property "Reference" "R110" (id 0) (at 846.455 702.9449 0)
+    (property "Reference" "R111" (id 0) (at 846.455 702.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 846.455 705.4849 0)
@@ -15217,7 +15256,7 @@
   (symbol (lib_id "Device:R_Small") (at 958.215 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3dc5cd43-ff87-41e6-a656-09db9eaf964f)
-    (property "Reference" "R51" (id 0) (at 960.755 575.9449 0)
+    (property "Reference" "R52" (id 0) (at 960.755 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 960.755 578.4849 0)
@@ -15239,7 +15278,7 @@
   (symbol (lib_id "power:GND") (at 523.24 120.65 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3de28eaa-96a5-425b-bf05-36ffdf2ad6e5)
-    (property "Reference" "#PWR024" (id 0) (at 523.24 127 0)
+    (property "Reference" "#PWR025" (id 0) (at 523.24 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 523.24 123.825 0)
@@ -15881,7 +15920,7 @@
   (symbol (lib_id "Device:R_Small") (at 920.115 648.97 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 44d74c0d-3abc-4ebe-ae74-07239aefffcd)
-    (property "Reference" "R86" (id 0) (at 922.655 647.6999 0)
+    (property "Reference" "R87" (id 0) (at 922.655 647.6999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (id 1) (at 922.655 650.2399 0)
@@ -16063,7 +16102,7 @@
   (symbol (lib_id "Device:R_Small") (at 729.615 544.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 48b21a4f-2692-4c83-871d-836601f26069)
-    (property "Reference" "R21" (id 0) (at 732.155 544.1949 0)
+    (property "Reference" "R22" (id 0) (at 732.155 544.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 732.155 546.7349 0)
@@ -16085,7 +16124,7 @@
   (symbol (lib_id "Device:R_Small") (at 675.005 527.05 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 48e242fe-7a87-42b7-a389-9cc3c50feebf)
-    (property "Reference" "R17" (id 0) (at 675.005 521.97 90))
+    (property "Reference" "R18" (id 0) (at 675.005 521.97 90))
     (property "Value" "100" (id 1) (at 675.005 524.51 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 675.005 527.05 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -16228,7 +16267,7 @@
   (symbol (lib_id "Device:R_Small") (at 939.165 618.49 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4a29bf81-d0b9-4382-9ca8-cf450592e416)
-    (property "Reference" "R72" (id 0) (at 941.705 617.8549 0)
+    (property "Reference" "R73" (id 0) (at 941.705 617.8549 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 941.705 620.3949 0)
@@ -16401,7 +16440,7 @@
   (symbol (lib_id "Device:R_Small") (at 843.915 608.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4d77da4e-8e3a-49b8-b4ed-0f5017df2b56)
-    (property "Reference" "R63" (id 0) (at 846.455 607.6949 0)
+    (property "Reference" "R64" (id 0) (at 846.455 607.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 846.455 610.2349 0)
@@ -16466,7 +16505,7 @@
   (symbol (lib_id "Device:R_Small") (at 964.565 544.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4e8e100c-7016-410a-849d-d7b1d08aa6e0)
-    (property "Reference" "R31" (id 0) (at 967.105 544.1949 0)
+    (property "Reference" "R32" (id 0) (at 967.105 544.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 967.105 546.7349 0)
@@ -16517,7 +16556,7 @@
   (symbol (lib_id "power:GND") (at 163.195 121.285 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4eacd81f-f9ab-4325-a273-2b99af8e5f5d)
-    (property "Reference" "#PWR026" (id 0) (at 163.195 127.635 0)
+    (property "Reference" "#PWR028" (id 0) (at 163.195 127.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 163.322 124.5362 90)
@@ -16571,7 +16610,7 @@
   (symbol (lib_id "power:GND") (at 65.405 120.65 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 507d47a0-75d5-4b84-9a87-d0d71681b546)
-    (property "Reference" "#PWR023" (id 0) (at 71.755 120.65 0)
+    (property "Reference" "#PWR024" (id 0) (at 71.755 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 69.215 120.65 0)
@@ -16589,7 +16628,7 @@
   (symbol (lib_id "power:GND") (at 542.925 122.555 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 511162cd-cae1-4d16-9130-0de1e189e790)
-    (property "Reference" "#PWR031" (id 0) (at 542.925 128.905 0)
+    (property "Reference" "#PWR033" (id 0) (at 542.925 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 542.925 125.73 0)
@@ -16755,7 +16794,7 @@
   (symbol (lib_id "power:GND") (at 150.495 121.285 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 53a8f53f-38a3-47a0-a1a1-d446644ee34c)
-    (property "Reference" "#PWR025" (id 0) (at 150.495 127.635 0)
+    (property "Reference" "#PWR027" (id 0) (at 150.495 127.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 150.622 124.5362 90)
@@ -16820,7 +16859,7 @@
   (symbol (lib_id "power:GND") (at 401.955 100.33 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5466728e-3874-4eb1-b4f0-766223053274)
-    (property "Reference" "#PWR018" (id 0) (at 401.955 106.68 0)
+    (property "Reference" "#PWR019" (id 0) (at 401.955 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 401.955 103.505 0)
@@ -17265,19 +17304,19 @@
     (pin "1" (uuid ed7b6105-1e25-4031-82c2-0fb058e72f89))
   )
 
-  (symbol (lib_id "acheron_Symbols:LED") (at 1028.065 553.72 270) (unit 1)
+  (symbol (lib_id "acheron_Symbols:LED") (at 1028.065 546.1 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 5d4966c5-b8bd-4e94-a1b5-89b3c55ebe1f)
-    (property "Reference" "LED25" (id 0) (at 1031.875 553.0849 90)
+    (property "Reference" "LED3" (id 0) (at 1031.875 545.4649 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
-    (property "Value" "LED" (id 1) (at 1031.875 554.3549 90)
+    (property "Value" "LED" (id 1) (at 1031.875 546.7349 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
-    (property "Footprint" "acheron_Components:LED_THT_2.54mm" (id 2) (at 1028.065 553.72 0)
+    (property "Footprint" "acheron_Components:LED_THT_2.54mm" (id 2) (at 1028.065 546.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 1028.065 553.72 0)
+    (property "Datasheet" "" (id 3) (at 1028.065 546.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "A" (uuid 8345d937-14ad-4012-880e-e151019f3a7c))
@@ -17581,7 +17620,7 @@
   (symbol (lib_id "Device:R_Small") (at 850.265 544.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 611f9c7e-8983-45ef-a979-52fa7b242e45)
-    (property "Reference" "R26" (id 0) (at 852.805 544.1949 0)
+    (property "Reference" "R27" (id 0) (at 852.805 544.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 852.805 546.7349 0)
@@ -17674,7 +17713,7 @@
   (symbol (lib_id "Device:R_Small") (at 939.165 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 632783c3-8e7d-4e6e-b059-26c68d7ea432)
-    (property "Reference" "R50" (id 0) (at 941.705 575.9449 0)
+    (property "Reference" "R51" (id 0) (at 941.705 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 941.705 578.4849 0)
@@ -17891,7 +17930,7 @@
   (symbol (lib_id "Device:R_Small") (at 843.915 648.97 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 656ad06a-bcb5-423d-9af0-3fcff3a23d18)
-    (property "Reference" "R84" (id 0) (at 846.455 648.3349 0)
+    (property "Reference" "R85" (id 0) (at 846.455 648.3349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 846.455 650.8749 0)
@@ -17913,7 +17952,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 790.575 553.72 270) (unit 1)
     (in_bom no) (on_board yes)
     (uuid 65864269-a38d-4aab-b49f-4368b8cbc442)
-    (property "Reference" "LED11" (id 0) (at 794.385 553.0849 90)
+    (property "Reference" "LED12" (id 0) (at 794.385 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 794.385 554.3549 90)
@@ -17951,7 +17990,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 898.525 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 66c70442-1d84-4bdf-b2d0-0000a065507e)
-    (property "Reference" "LED18" (id 0) (at 902.335 553.0849 90)
+    (property "Reference" "LED19" (id 0) (at 902.335 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 902.335 554.3549 90)
@@ -18077,7 +18116,7 @@
   (symbol (lib_id "power:GND") (at 156.845 103.505 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 67ba9740-067b-4fa9-b168-03d18f72ae73)
-    (property "Reference" "#PWR019" (id 0) (at 156.845 97.155 0)
+    (property "Reference" "#PWR020" (id 0) (at 156.845 97.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 156.718 100.2538 90)
@@ -18326,7 +18365,7 @@
   (symbol (lib_id "Device:R_Small") (at 862.965 608.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 69b9f0d0-f238-460e-80e2-274490c43339)
-    (property "Reference" "R64" (id 0) (at 865.505 607.6949 0)
+    (property "Reference" "R65" (id 0) (at 865.505 607.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 865.505 610.2349 0)
@@ -18372,7 +18411,7 @@
   (symbol (lib_id "Device:R_Small") (at 710.565 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6a022b29-64ff-4c0d-9525-f376ad07b43d)
-    (property "Reference" "R38" (id 0) (at 713.105 575.9449 0)
+    (property "Reference" "R39" (id 0) (at 713.105 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 713.105 578.4849 0)
@@ -18485,7 +18524,7 @@
   (symbol (lib_id "Device:R_Small") (at 805.815 544.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6a6c6d27-fd38-4894-b6d7-b75c896e2b57)
-    (property "Reference" "R24" (id 0) (at 808.355 544.1949 0)
+    (property "Reference" "R25" (id 0) (at 808.355 544.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 808.355 546.7349 0)
@@ -18525,7 +18564,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 1047.115 546.1 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 6aba571f-1bc4-425a-a9d1-80795d545bf7)
-    (property "Reference" "LED3" (id 0) (at 1050.925 545.4649 90)
+    (property "Reference" "LED4" (id 0) (at 1050.925 545.4649 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 1050.925 546.7349 90)
@@ -18544,7 +18583,7 @@
   (symbol (lib_id "Device:R_Small") (at 990.6 585.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6bfc5c77-1c07-44b7-988b-a7ae5b71bd1b)
-    (property "Reference" "R52" (id 0) (at 992.505 584.1999 0)
+    (property "Reference" "R53" (id 0) (at 992.505 584.1999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (id 1) (at 992.505 586.7399 0)
@@ -18725,7 +18764,7 @@
   (symbol (lib_id "Device:R_Small") (at 939.165 671.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6ed17271-4483-4ce7-99ee-6427c09af948)
-    (property "Reference" "R90" (id 0) (at 941.705 671.1949 0)
+    (property "Reference" "R91" (id 0) (at 941.705 671.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 941.705 673.7349 0)
@@ -18747,7 +18786,7 @@
   (symbol (lib_id "power:GND") (at 191.135 122.555 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6ee75561-ce84-4a22-bee2-e6de9eaa71cb)
-    (property "Reference" "#PWR028" (id 0) (at 184.785 122.555 0)
+    (property "Reference" "#PWR030" (id 0) (at 184.785 122.555 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 187.325 122.555 0)
@@ -18881,7 +18920,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 729.615 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 6fc3432f-4e08-457c-baf5-23063b5bcdc2)
-    (property "Reference" "LED6" (id 0) (at 733.425 553.0849 90)
+    (property "Reference" "LED7" (id 0) (at 733.425 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 733.425 554.3549 90)
@@ -18973,7 +19012,7 @@
   (symbol (lib_id "Device:R_Small") (at 780.415 544.83 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 71b0c00e-56b6-4d5e-b2db-484a33d4a43d)
-    (property "Reference" "R23" (id 0) (at 782.955 544.1949 0)
+    (property "Reference" "R24" (id 0) (at 782.955 544.1949 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (id 1) (at 782.955 546.7349 0)
@@ -19026,7 +19065,7 @@
   (symbol (lib_id "power:GND") (at 507.365 122.555 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 71e0910d-dcdd-4794-95e2-743bf1b508f5)
-    (property "Reference" "#PWR030" (id 0) (at 507.365 128.905 0)
+    (property "Reference" "#PWR032" (id 0) (at 507.365 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 507.365 125.73 0)
@@ -19092,7 +19131,7 @@
   (symbol (lib_id "Device:R_Small") (at 939.165 544.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7386d805-e300-433c-8f1b-ea1a18af825a)
-    (property "Reference" "R30" (id 0) (at 941.705 544.1949 0)
+    (property "Reference" "R31" (id 0) (at 941.705 544.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 941.705 546.7349 0)
@@ -19240,7 +19279,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 755.015 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 75150909-76fa-4172-996d-22bd1a5bf808)
-    (property "Reference" "LED8" (id 0) (at 758.825 553.0849 90)
+    (property "Reference" "LED9" (id 0) (at 758.825 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 758.825 554.3549 90)
@@ -19272,6 +19311,23 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 626bb294-e874-4139-a6e3-9355a3e47aa1))
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 732.155 45.72 0) (unit 1)
+    (in_bom no) (on_board yes)
+    (uuid 7559c2e7-75a2-4992-b944-3824dfddccd2)
+    (property "Reference" "GR6" (id 0) (at 735.965 45.0849 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Warning" (id 1) (at 735.965 47.625 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "acheron_Graphics:Warning_Sign_3.6x3.2mm" (id 2) (at 732.155 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 732.155 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
   )
 
   (symbol (lib_id "power:GND") (at 748.665 622.3 0) (unit 1)
@@ -19350,7 +19406,7 @@
   (symbol (lib_id "Device:R_Small") (at 710.565 544.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 76ea2d10-b5b6-4dbe-b0c5-3d423d1099d6)
-    (property "Reference" "R20" (id 0) (at 713.105 544.1949 0)
+    (property "Reference" "R21" (id 0) (at 713.105 544.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 713.105 546.7349 0)
@@ -19479,7 +19535,7 @@
   (symbol (lib_id "Device:R_Small") (at 691.515 680.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 79d0b365-a15f-4dc6-99ff-59950b8ca449)
-    (property "Reference" "R92" (id 0) (at 694.055 680.0849 0)
+    (property "Reference" "R93" (id 0) (at 694.055 680.0849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 694.055 682.6249 0)
@@ -19501,7 +19557,7 @@
   (symbol (lib_id "Device:R_Small") (at 767.715 680.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 79fee670-0a29-4a64-ae4d-771c4d27453d)
-    (property "Reference" "R94" (id 0) (at 770.255 680.0849 0)
+    (property "Reference" "R95" (id 0) (at 770.255 680.0849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 770.255 682.6249 0)
@@ -19523,7 +19579,7 @@
   (symbol (lib_id "Device:R_Small") (at 640.715 107.95 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7aca2fcb-3c65-4024-bbfa-40d97d4442b3)
-    (property "Reference" "R11" (id 0) (at 640.715 109.855 90)
+    (property "Reference" "R8" (id 0) (at 640.715 109.855 90)
       (effects (font (size 0.762 0.762)))
     )
     (property "Value" "100R" (id 1) (at 640.715 107.95 90)
@@ -19563,7 +19619,7 @@
   (symbol (lib_id "Device:R_Small") (at 862.965 648.97 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7b54dd3b-5d94-40ac-8858-d03af0a159aa)
-    (property "Reference" "R85" (id 0) (at 865.505 647.6999 0)
+    (property "Reference" "R86" (id 0) (at 865.505 647.6999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (id 1) (at 865.505 650.2399 0)
@@ -19609,7 +19665,7 @@
   (symbol (lib_id "Device:R_Small") (at 996.315 703.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7bdfd5f2-d2bf-4bff-8fd5-97aa53b59cbc)
-    (property "Reference" "R114" (id 0) (at 998.855 702.9449 0)
+    (property "Reference" "R115" (id 0) (at 998.855 702.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 998.855 705.4849 0)
@@ -19655,7 +19711,7 @@
   (symbol (lib_id "Device:R_Small") (at 767.715 703.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7c4bb8f7-7966-4b4c-a13e-51cde0677aff)
-    (property "Reference" "R108" (id 0) (at 770.255 702.9449 0)
+    (property "Reference" "R109" (id 0) (at 770.255 702.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 770.255 705.4849 0)
@@ -19764,7 +19820,7 @@
   (symbol (lib_id "Device:R_Small") (at 729.615 671.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7fe830db-e1a1-4e82-9b8d-bf6a34aafdfd)
-    (property "Reference" "R88" (id 0) (at 732.155 671.1949 0)
+    (property "Reference" "R89" (id 0) (at 732.155 671.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 732.155 673.7349 0)
@@ -19935,7 +19991,7 @@
   (symbol (lib_id "Device:R_Small") (at 805.815 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 829e53b6-d440-4778-accd-567ebae4e706)
-    (property "Reference" "R43" (id 0) (at 808.355 575.9449 0)
+    (property "Reference" "R44" (id 0) (at 808.355 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 808.355 578.4849 0)
@@ -20031,7 +20087,7 @@
   (symbol (lib_id "Device:R_Small") (at 691.515 640.08 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 84ea6833-610a-4c7c-8dae-748848657395)
-    (property "Reference" "R74" (id 0) (at 694.055 639.4449 0)
+    (property "Reference" "R75" (id 0) (at 694.055 639.4449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 694.055 641.9849 0)
@@ -20068,10 +20124,10 @@
     (pin "1" (uuid 38550a76-7423-4bd4-a6f1-968e8c692e64))
   )
 
-  (symbol (lib_id "Device:R_Small") (at 62.23 120.65 270) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 62.23 120.65 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 85dd281e-134a-4566-a6ad-1dd6c44543ab)
-    (property "Reference" "R10" (id 0) (at 62.23 118.745 90)
+    (property "Reference" "R14" (id 0) (at 62.23 118.745 90)
       (effects (font (size 0.7874 0.7874)))
     )
     (property "Value" "5.1k" (id 1) (at 62.23 120.65 90)
@@ -20253,7 +20309,7 @@
   (symbol (lib_id "Device:R_Small") (at 939.165 703.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8889992c-501b-41c6-a27a-2cb26f5118b8)
-    (property "Reference" "R113" (id 0) (at 941.705 702.9449 0)
+    (property "Reference" "R114" (id 0) (at 941.705 702.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 941.705 705.4849 0)
@@ -20349,7 +20405,7 @@
   (symbol (lib_id "Device:R_Small") (at 831.215 544.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8998ef12-b3fc-4f94-bf55-801ecf5e622f)
-    (property "Reference" "R25" (id 0) (at 833.755 544.1949 0)
+    (property "Reference" "R26" (id 0) (at 833.755 544.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 833.755 546.7349 0)
@@ -20572,7 +20628,7 @@
   (symbol (lib_id "Device:R_Small") (at 617.22 114.3 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8cb38116-c43d-42a9-b44a-52932123e352)
-    (property "Reference" "R12" (id 0) (at 617.22 116.205 90)
+    (property "Reference" "R9" (id 0) (at 617.22 116.205 90)
       (effects (font (size 0.762 0.762)))
     )
     (property "Value" "100R" (id 1) (at 617.22 114.3 90)
@@ -20612,7 +20668,7 @@
   (symbol (lib_id "Device:R_Small") (at 748.665 648.97 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8d5899b6-1fd2-4753-ac93-da8529629858)
-    (property "Reference" "R82" (id 0) (at 751.205 647.6999 0)
+    (property "Reference" "R83" (id 0) (at 751.205 647.6999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (id 1) (at 751.205 650.2399 0)
@@ -20670,7 +20726,7 @@
   (symbol (lib_id "Device:R_Small") (at 805.815 608.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8dd3accb-fd0a-48c8-b991-bfd1307086ac)
-    (property "Reference" "R61" (id 0) (at 808.355 607.6949 0)
+    (property "Reference" "R62" (id 0) (at 808.355 607.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 808.355 610.2349 0)
@@ -20872,7 +20928,7 @@
   (symbol (lib_id "Device:R_Small") (at 767.715 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 914da29c-8e33-45f4-b06d-9283323630ad)
-    (property "Reference" "R41" (id 0) (at 770.255 575.9449 0)
+    (property "Reference" "R42" (id 0) (at 770.255 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 770.255 578.4849 0)
@@ -20951,7 +21007,7 @@
   (symbol (lib_id "Device:R_Small") (at 920.115 680.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 92716e03-da77-4311-ad27-ef927fb5c029)
-    (property "Reference" "R101" (id 0) (at 922.655 680.0849 0)
+    (property "Reference" "R102" (id 0) (at 922.655 680.0849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 922.655 682.6249 0)
@@ -21104,7 +21160,7 @@
   (symbol (lib_id "power:GND") (at 537.845 121.92 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 938260f6-e6d4-418c-9a03-b3a3c3d0ff0f)
-    (property "Reference" "#PWR027" (id 0) (at 537.845 128.27 0)
+    (property "Reference" "#PWR029" (id 0) (at 537.845 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 537.845 125.095 0)
@@ -21140,7 +21196,7 @@
   (symbol (lib_id "Device:R_Small") (at 691.515 703.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 93bb2719-a81e-406e-b062-cb9c2546bf51)
-    (property "Reference" "R106" (id 0) (at 694.055 702.9449 0)
+    (property "Reference" "R107" (id 0) (at 694.055 702.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 694.055 705.4849 0)
@@ -21265,7 +21321,7 @@
   (symbol (lib_id "Device:R_Small") (at 882.015 608.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 966b3376-7ab6-4bb0-864b-892b0ede974e)
-    (property "Reference" "R65" (id 0) (at 884.555 607.6949 0)
+    (property "Reference" "R66" (id 0) (at 884.555 607.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 884.555 610.2349 0)
@@ -21615,7 +21671,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 831.215 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 9b626226-6292-4aca-aeaf-b41df6d3d466)
-    (property "Reference" "LED14" (id 0) (at 835.025 553.0849 90)
+    (property "Reference" "LED15" (id 0) (at 835.025 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 835.025 554.3549 90)
@@ -21711,7 +21767,7 @@
   (symbol (lib_id "Device:R_Small") (at 660.4 520.7 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9c6b8d36-f1c7-46e0-8de4-573a59623624)
-    (property "Reference" "R16" (id 0) (at 658.495 519.4299 0)
+    (property "Reference" "R17" (id 0) (at 658.495 519.4299 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (id 1) (at 658.495 521.3349 0)
@@ -21875,7 +21931,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 706.755 58.42 0) (unit 1)
     (in_bom no) (on_board yes)
     (uuid 9ebc2618-0157-4ec6-84a5-e700194d4826)
-    (property "Reference" "GR7" (id 0) (at 710.565 57.7849 0)
+    (property "Reference" "GR8" (id 0) (at 710.565 57.7849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Acheron Logo" (id 1) (at 710.565 60.325 0)
@@ -21892,7 +21948,7 @@
   (symbol (lib_id "Device:R_Small") (at 767.715 640.08 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9f0ce351-a060-4ae7-9c0e-b51c30098414)
-    (property "Reference" "R77" (id 0) (at 770.255 639.4449 0)
+    (property "Reference" "R78" (id 0) (at 770.255 639.4449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 770.255 641.9849 0)
@@ -21974,7 +22030,7 @@
   (symbol (lib_id "Device:R_Small") (at 638.81 92.075 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a01d9186-5bd7-4517-b898-a2ae8222699e)
-    (property "Reference" "R6" (id 0) (at 638.81 93.98 90)
+    (property "Reference" "R7" (id 0) (at 638.81 93.98 90)
       (effects (font (size 0.762 0.762)))
     )
     (property "Value" "100R" (id 1) (at 638.81 92.075 90)
@@ -21996,7 +22052,7 @@
   (symbol (lib_id "Device:R_Small") (at 1009.65 585.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a05e8428-9c2f-43af-9f7d-e72b6958d9e0)
-    (property "Reference" "R53" (id 0) (at 1011.555 584.1999 0)
+    (property "Reference" "R54" (id 0) (at 1011.555 584.1999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (id 1) (at 1011.555 586.7399 0)
@@ -22018,7 +22074,7 @@
   (symbol (lib_id "Device:C_Small") (at 163.195 116.205 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a06543b8-a8d4-4924-85d0-c37f94a0f619)
-    (property "Reference" "C10" (id 0) (at 167.005 116.205 90)
+    (property "Reference" "C11" (id 0) (at 167.005 116.205 90)
       (effects (font (size 0.7874 0.7874)))
     )
     (property "Value" "16p" (id 1) (at 165.735 116.205 90)
@@ -22046,7 +22102,7 @@
   (symbol (lib_id "Device:R_Small") (at 996.315 680.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a0713369-b89f-4eba-bfa8-1e15ae3030db)
-    (property "Reference" "R104" (id 0) (at 998.855 679.4499 0)
+    (property "Reference" "R105" (id 0) (at 998.855 679.4499 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (id 1) (at 998.855 681.9899 0)
@@ -22104,7 +22160,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 888.365 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid a20ccf73-fbfd-4941-ab84-8d95b0b73630)
-    (property "Reference" "LED17" (id 0) (at 892.175 553.0849 90)
+    (property "Reference" "LED18" (id 0) (at 892.175 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 892.175 554.3549 90)
@@ -22123,7 +22179,7 @@
   (symbol (lib_id "Device:C_Small") (at 150.495 116.205 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a2525e67-3c27-4302-a0a1-33c7fe2d0219)
-    (property "Reference" "C9" (id 0) (at 146.685 116.205 90)
+    (property "Reference" "C10" (id 0) (at 146.685 116.205 90)
       (effects (font (size 0.7874 0.7874)))
     )
     (property "Value" "16p" (id 1) (at 147.955 116.205 90)
@@ -22250,7 +22306,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 913.765 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid a375b4e8-b299-49b8-9159-ff68cec7b9d9)
-    (property "Reference" "LED19" (id 0) (at 917.575 553.0849 90)
+    (property "Reference" "LED20" (id 0) (at 917.575 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 917.575 554.3549 90)
@@ -22420,7 +22476,7 @@
   (symbol (lib_id "Device:R_Small") (at 710.565 640.08 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a5052a3a-a77c-4175-9fc9-5ad7fa879d00)
-    (property "Reference" "R75" (id 0) (at 713.105 639.4449 0)
+    (property "Reference" "R76" (id 0) (at 713.105 639.4449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 713.105 641.9849 0)
@@ -22542,7 +22598,7 @@
   (symbol (lib_id "Device:R_Small") (at 901.065 608.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a70a55a7-a1c4-4baf-a8f7-4c02571f61b1)
-    (property "Reference" "R66" (id 0) (at 903.605 607.6949 0)
+    (property "Reference" "R67" (id 0) (at 903.605 607.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 903.605 610.2349 0)
@@ -22564,7 +22620,7 @@
   (symbol (lib_id "Device:R_Small") (at 824.865 648.97 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a74224ed-f731-497e-b397-b6b0df3e0791)
-    (property "Reference" "R83" (id 0) (at 827.405 647.6999 0)
+    (property "Reference" "R84" (id 0) (at 827.405 647.6999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (id 1) (at 827.405 650.2399 0)
@@ -22586,7 +22642,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 923.925 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid a77e2276-ba7b-4f28-bbe3-f9fe47ed941a)
-    (property "Reference" "LED20" (id 0) (at 927.735 553.0849 90)
+    (property "Reference" "LED21" (id 0) (at 927.735 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 927.735 554.3549 90)
@@ -22672,7 +22728,7 @@
   (symbol (lib_id "Device:R_Small") (at 862.965 703.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a82fcb93-2570-4183-8154-e2f77fd6a28c)
-    (property "Reference" "R111" (id 0) (at 865.505 702.9449 0)
+    (property "Reference" "R112" (id 0) (at 865.505 702.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 865.505 705.4849 0)
@@ -22694,7 +22750,7 @@
   (symbol (lib_id "Device:R_Small") (at 755.015 544.83 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a9279ca6-55fb-40f3-89d3-bd6aeb1b816c)
-    (property "Reference" "R22" (id 0) (at 757.555 544.1949 0)
+    (property "Reference" "R23" (id 0) (at 757.555 544.1949 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (id 1) (at 757.555 546.7349 0)
@@ -22896,7 +22952,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 691.515 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid aaf6b2e7-24a4-4671-8854-2f6709424931)
-    (property "Reference" "LED4" (id 0) (at 695.325 553.0849 90)
+    (property "Reference" "LED5" (id 0) (at 695.325 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 695.325 554.3549 90)
@@ -22939,7 +22995,7 @@
   (symbol (lib_id "Device:R_Small") (at 767.715 608.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ab5fcf71-e01f-49b7-84ca-911461084800)
-    (property "Reference" "R59" (id 0) (at 770.255 607.6949 0)
+    (property "Reference" "R60" (id 0) (at 770.255 607.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 770.255 610.2349 0)
@@ -23088,7 +23144,7 @@
   (symbol (lib_id "Device:R_Small") (at 729.615 640.08 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid adb6fefe-fa38-499d-a5b7-2d2ca41d4b84)
-    (property "Reference" "R76" (id 0) (at 732.155 639.4449 0)
+    (property "Reference" "R77" (id 0) (at 732.155 639.4449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 732.155 641.9849 0)
@@ -23175,7 +23231,7 @@
   (symbol (lib_id "power:GND") (at 552.45 122.555 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid aefe9bfe-94a3-4773-99b0-f4aca60cf71d)
-    (property "Reference" "#PWR032" (id 0) (at 552.45 128.905 0)
+    (property "Reference" "#PWR034" (id 0) (at 552.45 128.905 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 552.45 125.73 0)
@@ -23281,7 +23337,7 @@
   (symbol (lib_id "power:GND") (at 650.875 99.06 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b095c784-bea0-4602-bfc0-b502808a1d0f)
-    (property "Reference" "#PWR020" (id 0) (at 650.875 105.41 0)
+    (property "Reference" "#PWR018" (id 0) (at 650.875 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 650.875 102.235 0)
@@ -23413,7 +23469,7 @@
   (symbol (lib_id "Device:R_Small") (at 977.265 680.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b21ec3d0-d427-4c25-9449-565cd940bfc6)
-    (property "Reference" "R103" (id 0) (at 979.805 680.0849 0)
+    (property "Reference" "R104" (id 0) (at 979.805 680.0849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 979.805 682.6249 0)
@@ -23435,7 +23491,7 @@
   (symbol (lib_id "Device:R_Small") (at 786.765 640.08 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b228a23f-b746-4b7e-b076-a7e22154558f)
-    (property "Reference" "R78" (id 0) (at 789.305 639.4449 0)
+    (property "Reference" "R79" (id 0) (at 789.305 639.4449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 789.305 641.9849 0)
@@ -23481,7 +23537,7 @@
   (symbol (lib_id "Device:R_Small") (at 786.765 680.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b25523ce-4a9a-4ebe-babf-37bc229b61de)
-    (property "Reference" "R95" (id 0) (at 789.305 679.4499 0)
+    (property "Reference" "R96" (id 0) (at 789.305 679.4499 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (id 1) (at 789.305 681.9899 0)
@@ -23527,7 +23583,7 @@
   (symbol (lib_id "Device:R_Small") (at 958.215 680.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b2eb0ec3-12ff-418e-b809-442bd8cc58d5)
-    (property "Reference" "R102" (id 0) (at 960.755 680.0849 0)
+    (property "Reference" "R103" (id 0) (at 960.755 680.0849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 960.755 682.6249 0)
@@ -23544,34 +23600,6 @@
     )
     (pin "1" (uuid 0fbeafe4-fb6c-423a-91f1-9c4f9f3841d0))
     (pin "2" (uuid 277820cf-2ab1-423c-a7b5-0e1ba34a5f0d))
-  )
-
-  (symbol (lib_id "Device:CP1") (at 549.275 282.575 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid b2f3003b-0463-48d1-8c83-5c752b917a2a)
-    (property "Reference" "C20" (id 0) (at 553.085 280.67 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "1u" (id 1) (at 553.085 282.575 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "acheron_Components:CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder" (id 2) (at 549.275 282.575 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 549.275 282.575 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "C3216" (id 4) (at 549.275 282.575 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specification" "Tantallum 10V" (id 5) (at 552.45 284.48 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Description" "" (id 6) (at 549.275 282.575 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cd0941fa-5040-48f2-a5f2-fb37218c7a4e))
-    (pin "2" (uuid ee444b5b-d92d-44b0-863b-76a59c76706d))
   )
 
   (symbol (lib_id "power:GND") (at 805.815 590.55 0) (unit 1)
@@ -23698,22 +23726,22 @@
     (pin "4" (uuid c28b9423-eed3-4fc8-b28d-b750e8612b12))
   )
 
-  (symbol (lib_id "Device:R_Small") (at 1028.065 544.83 0) (unit 1)
+  (symbol (lib_id "Device:R_Small") (at 1028.065 554.99 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b45bdde0-c901-4b60-9528-b85b421c7d6a)
-    (property "Reference" "R32" (id 0) (at 1030.605 544.1949 0)
+    (property "Reference" "R37" (id 0) (at 1030.605 554.3549 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1k" (id 1) (at 1030.605 546.7349 0)
+    (property "Value" "1k" (id 1) (at 1030.605 556.8949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 1028.065 544.83 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 1028.065 554.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 1028.065 544.83 0)
+    (property "Datasheet" "~" (id 3) (at 1028.065 554.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Package" "R0805" (id 4) (at 1028.065 544.83 0)
+    (property "Package" "R0805" (id 4) (at 1028.065 554.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bef2c7e4-a046-4f8f-8983-b656331f297b))
@@ -23859,7 +23887,7 @@
   (symbol (lib_id "Device:R_Small") (at 843.915 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b67e106a-8289-4a33-93cd-b06f6a2fb1cb)
-    (property "Reference" "R45" (id 0) (at 846.455 575.9449 0)
+    (property "Reference" "R46" (id 0) (at 846.455 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 846.455 578.4849 0)
@@ -23881,7 +23909,7 @@
   (symbol (lib_id "Device:R_Small") (at 1015.365 703.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b6bb32d6-2844-4c7d-b175-8bc947875d63)
-    (property "Reference" "R115" (id 0) (at 1017.905 702.9449 0)
+    (property "Reference" "R116" (id 0) (at 1017.905 702.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 1017.905 705.4849 0)
@@ -24143,7 +24171,7 @@
   (symbol (lib_id "Device:R_Small") (at 710.565 608.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bab23800-e536-4353-adbd-93414973e37a)
-    (property "Reference" "R56" (id 0) (at 713.105 607.6949 0)
+    (property "Reference" "R57" (id 0) (at 713.105 607.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 713.105 610.2349 0)
@@ -24165,7 +24193,7 @@
   (symbol (lib_id "Device:R_Small") (at 729.615 703.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bae006dd-a23f-4d5e-a27b-304b7df75e3c)
-    (property "Reference" "R107" (id 0) (at 732.155 702.9449 0)
+    (property "Reference" "R108" (id 0) (at 732.155 702.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 732.155 705.4849 0)
@@ -24451,7 +24479,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 964.565 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid bd8615f6-8c3e-4f05-89ad-8fc1eff3ba2f)
-    (property "Reference" "LED23" (id 0) (at 968.375 553.0849 90)
+    (property "Reference" "LED24" (id 0) (at 968.375 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 968.375 554.3549 90)
@@ -24607,7 +24635,7 @@
   (symbol (lib_id "Device:R_Small") (at 691.515 608.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c0214dfd-868e-476a-bbb0-304224d544f6)
-    (property "Reference" "R55" (id 0) (at 694.055 607.6949 0)
+    (property "Reference" "R56" (id 0) (at 694.055 607.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 694.055 610.2349 0)
@@ -24969,7 +24997,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 706.755 64.77 0) (unit 1)
     (in_bom no) (on_board yes)
     (uuid c794e1cf-13db-438c-b1d1-a66c81189b65)
-    (property "Reference" "GR8" (id 0) (at 710.565 64.1349 0)
+    (property "Reference" "GR9" (id 0) (at 710.565 64.1349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Warning" (id 1) (at 710.565 66.675 0)
@@ -24986,7 +25014,7 @@
   (symbol (lib_id "Device:R_Small") (at 824.865 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c830e221-fa43-4e08-b869-60868e47d541)
-    (property "Reference" "R44" (id 0) (at 827.405 575.9449 0)
+    (property "Reference" "R45" (id 0) (at 827.405 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 827.405 578.4849 0)
@@ -25120,7 +25148,7 @@
   (symbol (lib_id "Device:R_Small") (at 786.765 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c99b6805-1174-4d11-ab2c-7a5a3a58cb30)
-    (property "Reference" "R42" (id 0) (at 789.305 575.9449 0)
+    (property "Reference" "R43" (id 0) (at 789.305 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 789.305 578.4849 0)
@@ -25142,7 +25170,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 974.725 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid c9b101ff-fe0e-4096-9c86-404b92611550)
-    (property "Reference" "LED24" (id 0) (at 978.535 553.0849 90)
+    (property "Reference" "LED25" (id 0) (at 978.535 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 978.535 554.3549 90)
@@ -25179,7 +25207,7 @@
   (symbol (lib_id "Device:R_Small") (at 641.35 668.655 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ca2a2b11-7bdf-4f0d-a882-d122658d6702)
-    (property "Reference" "R87" (id 0) (at 641.35 663.575 90))
+    (property "Reference" "R88" (id 0) (at 641.35 663.575 90))
     (property "Value" "100" (id 1) (at 641.35 666.115 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 641.35 668.655 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -25197,7 +25225,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 949.325 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid ca4b202d-67a0-452b-81df-4d1727445c36)
-    (property "Reference" "LED22" (id 0) (at 953.135 553.0849 90)
+    (property "Reference" "LED23" (id 0) (at 953.135 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 953.135 554.3549 90)
@@ -25594,7 +25622,7 @@
   (symbol (lib_id "Device:R_Small") (at 641.35 539.75 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cefce47e-3172-4df6-b48e-15f6d495654a)
-    (property "Reference" "R18" (id 0) (at 641.35 534.67 90))
+    (property "Reference" "R19" (id 0) (at 641.35 534.67 90))
     (property "Value" "100" (id 1) (at 641.35 537.21 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 641.35 539.75 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -25651,7 +25679,7 @@
   (symbol (lib_id "Device:R_Small") (at 630.555 76.2 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d0b6c32f-b916-475f-a01c-7e23511a7f77)
-    (property "Reference" "R3" (id 0) (at 630.555 74.295 90)
+    (property "Reference" "R4" (id 0) (at 630.555 74.295 90)
       (effects (font (size 0.762 0.762)))
     )
     (property "Value" "330k" (id 1) (at 630.555 76.2 90)
@@ -25673,7 +25701,7 @@
   (symbol (lib_id "Device:R_Small") (at 888.365 544.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d121cfad-3926-40f3-af97-4eadbf88815a)
-    (property "Reference" "R28" (id 0) (at 890.905 544.1949 0)
+    (property "Reference" "R29" (id 0) (at 890.905 544.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 890.905 546.7349 0)
@@ -25855,7 +25883,7 @@
   (symbol (lib_id "Device:R_Small") (at 824.865 681.355 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d2fd0c6c-2a97-4597-9f37-4a26674c90bc)
-    (property "Reference" "R105" (id 0) (at 827.405 680.7199 0)
+    (property "Reference" "R106" (id 0) (at 827.405 680.7199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 827.405 683.2599 0)
@@ -26032,7 +26060,7 @@
   (symbol (lib_id "Device:R_Small") (at 901.065 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d3e42260-3027-4004-a16a-7c81dfe6b1bd)
-    (property "Reference" "R48" (id 0) (at 903.605 575.9449 0)
+    (property "Reference" "R49" (id 0) (at 903.605 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 903.605 578.4849 0)
@@ -26097,7 +26125,7 @@
   (symbol (lib_id "Device:R_Small") (at 748.665 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d5b5e44e-2cb1-4cf4-874a-bf71c34285df)
-    (property "Reference" "R40" (id 0) (at 751.205 575.9449 0)
+    (property "Reference" "R41" (id 0) (at 751.205 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 751.205 578.4849 0)
@@ -26290,7 +26318,7 @@
   (symbol (lib_id "Device:R_Small") (at 920.115 608.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d766ddc3-468b-4dd3-ac51-6d579529ba1e)
-    (property "Reference" "R67" (id 0) (at 922.655 607.6949 0)
+    (property "Reference" "R68" (id 0) (at 922.655 607.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 922.655 610.2349 0)
@@ -26312,7 +26340,7 @@
   (symbol (lib_id "Device:C_Small") (at 647.7 112.395 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d781313c-b475-45e0-b119-66945ae4a899)
-    (property "Reference" "C12" (id 0) (at 652.78 112.395 90)
+    (property "Reference" "C7" (id 0) (at 652.78 112.395 90)
       (effects (font (size 0.762 0.762)))
     )
     (property "Value" "100n" (id 1) (at 651.51 112.395 90)
@@ -26433,7 +26461,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 869.315 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid d89fe687-6849-4f56-9c37-82ba45134e6d)
-    (property "Reference" "LED16" (id 0) (at 873.125 553.0849 90)
+    (property "Reference" "LED17" (id 0) (at 873.125 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 873.125 554.3549 90)
@@ -26488,7 +26516,7 @@
   (symbol (lib_id "Device:R_Small") (at 620.395 144.78 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d92258f7-3ef7-46f3-b5fc-917875457c3e)
-    (property "Reference" "R14" (id 0) (at 620.395 142.875 90)
+    (property "Reference" "R15" (id 0) (at 620.395 142.875 90)
       (effects (font (size 0.762 0.762)))
     )
     (property "Value" "10k" (id 1) (at 620.395 144.78 90)
@@ -26547,7 +26575,7 @@
   (symbol (lib_id "Device:R_Small") (at 901.065 680.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid dab2d5be-124a-487d-b5e0-1a55067cc57e)
-    (property "Reference" "R100" (id 0) (at 903.605 680.0849 0)
+    (property "Reference" "R101" (id 0) (at 903.605 680.0849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 903.605 682.6249 0)
@@ -26728,7 +26756,7 @@
   (symbol (lib_id "Device:R_Small") (at 647.7 675.005 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dbbeda4c-b3d9-4c7b-b986-6cda899af60b)
-    (property "Reference" "R91" (id 0) (at 645.795 673.7349 0)
+    (property "Reference" "R92" (id 0) (at 645.795 673.7349 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (id 1) (at 645.795 675.6399 0)
@@ -26790,6 +26818,31 @@
     )
     (pin "A" (uuid c35db87e-7860-40bd-bd6f-412f4bc81b46))
     (pin "K" (uuid 72dace29-d824-49fa-88a6-0e68141af646))
+  )
+
+  (symbol (lib_id "Device:C") (at 549.275 282.575 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid dc7997a4-8fef-462a-9540-827c2661f4d7)
+    (property "Reference" "C20" (id 0) (at 552.45 283.845 0)
+      (effects (font (size 0.762 0.762)) (justify right))
+    )
+    (property "Value" "1u" (id 1) (at 552.45 282.575 0)
+      (effects (font (size 0.762 0.762)) (justify right))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 548.3098 286.385 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 549.275 282.575 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "C0805" (id 4) (at 549.275 282.575 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Specification" "MLCC 10V" (id 5) (at 552.45 281.305 0)
+      (effects (font (size 0.762 0.762)) (justify right))
+    )
+    (pin "1" (uuid fdf4484e-be7c-4c3f-ae70-aeeda7e0bf24))
+    (pin "2" (uuid f252709c-b70b-4955-a991-ae51ab385778))
   )
 
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 106.68 683.895 0) (unit 1)
@@ -26877,7 +26930,7 @@
   (symbol (lib_id "Device:R_Small") (at 635 80.01 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid de071f2d-32e0-43f7-9a0e-c55f66883a2f)
-    (property "Reference" "R4" (id 0) (at 633.095 80.01 90)
+    (property "Reference" "R5" (id 0) (at 633.095 80.01 90)
       (effects (font (size 0.762 0.762)))
     )
     (property "Value" "1M" (id 1) (at 635 80.01 90)
@@ -26995,7 +27048,7 @@
   (symbol (lib_id "Device:R_Small") (at 62.23 115.57 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid deaaaf26-a76c-4592-9f72-d017138b322c)
-    (property "Reference" "R7" (id 0) (at 62.23 113.665 90)
+    (property "Reference" "R10" (id 0) (at 62.23 113.665 90)
       (effects (font (size 0.7874 0.7874)))
     )
     (property "Value" "5.1k" (id 1) (at 62.23 115.57 90)
@@ -27178,7 +27231,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 710.565 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid e1906426-6072-4168-983c-c4b25bb89012)
-    (property "Reference" "LED5" (id 0) (at 714.375 553.0849 90)
+    (property "Reference" "LED6" (id 0) (at 714.375 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 714.375 554.3549 90)
@@ -27236,7 +27289,7 @@
   (symbol (lib_id "Device:R_Small") (at 786.765 608.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e234f4fe-c700-4104-af9e-6336a31892e3)
-    (property "Reference" "R60" (id 0) (at 789.305 607.6949 0)
+    (property "Reference" "R61" (id 0) (at 789.305 607.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 789.305 610.2349 0)
@@ -27332,7 +27385,7 @@
   (symbol (lib_id "Device:R_Small") (at 660.4 639.445 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e366eee7-4480-4870-aa35-ebfa4cd4153e)
-    (property "Reference" "R73" (id 0) (at 657.86 638.8099 0)
+    (property "Reference" "R74" (id 0) (at 657.86 638.8099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 657.86 641.3499 0)
@@ -27695,7 +27748,7 @@
   (symbol (lib_id "power:GND") (at 156.845 118.745 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e87e86fd-d90f-482b-b45e-8fe93bb263a8)
-    (property "Reference" "#PWR022" (id 0) (at 156.845 125.095 0)
+    (property "Reference" "#PWR023" (id 0) (at 156.845 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 156.972 121.9962 90)
@@ -27708,6 +27761,28 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c45a7948-fb56-41e3-8e9d-24a6f47a5416))
+  )
+
+  (symbol (lib_id "Device:R_Small") (at 322.58 68.58 90) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid e8d9407b-1f9a-47a9-869f-19887b60dd9b)
+    (property "Reference" "R3" (id 0) (at 322.58 70.485 90)
+      (effects (font (size 0.762 0.762)))
+    )
+    (property "Value" "1.5k" (id 1) (at 322.58 68.58 90)
+      (effects (font (size 0.508 0.508)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 322.58 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 322.58 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Package" "R0402" (id 4) (at 322.58 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 60580ae5-f8db-4733-a399-d02dae945efb))
+    (pin "2" (uuid 8becec4a-8292-4e37-b6e5-ca88b8b0fb32))
   )
 
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 233.68 605.155 0) (unit 1)
@@ -27782,7 +27857,7 @@
   (symbol (lib_id "Device:R_Small") (at 1015.365 608.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e8fca401-2da2-4f53-8b58-36c52b127d47)
-    (property "Reference" "R68" (id 0) (at 1017.905 607.6949 0)
+    (property "Reference" "R69" (id 0) (at 1017.905 607.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 1017.905 610.2349 0)
@@ -28008,7 +28083,7 @@
   (symbol (lib_id "power:GND") (at 647.7 116.84 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid eba87e85-eb64-4a19-bbe9-41d2389aefd8)
-    (property "Reference" "#PWR033" (id 0) (at 647.7 123.19 0)
+    (property "Reference" "#PWR022" (id 0) (at 647.7 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 647.7 120.015 0)
@@ -28026,7 +28101,7 @@
   (symbol (lib_id "Device:R_Small") (at 920.115 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ebdc6d78-e199-4941-be1b-456f5fd45d5d)
-    (property "Reference" "R49" (id 0) (at 922.655 575.9449 0)
+    (property "Reference" "R50" (id 0) (at 922.655 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 922.655 578.4849 0)
@@ -28085,7 +28160,7 @@
   (symbol (lib_id "Device:R_Small") (at 862.965 576.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ec0c469b-8b2d-40a9-806e-9e9800e2799a)
-    (property "Reference" "R46" (id 0) (at 865.505 575.9449 0)
+    (property "Reference" "R47" (id 0) (at 865.505 575.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 865.505 578.4849 0)
@@ -28125,7 +28200,7 @@
   (symbol (lib_id "Device:R_Small") (at 901.065 703.58 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ec22d12b-cdff-4f7f-a9e7-8ef5642763fc)
-    (property "Reference" "R112" (id 0) (at 903.605 702.9449 0)
+    (property "Reference" "R113" (id 0) (at 903.605 702.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 903.605 705.4849 0)
@@ -28147,7 +28222,7 @@
   (symbol (lib_id "Device:R_Small") (at 805.815 640.08 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ec830fa3-8b15-4cec-a928-1250be86a0a9)
-    (property "Reference" "R79" (id 0) (at 808.355 639.4449 0)
+    (property "Reference" "R80" (id 0) (at 808.355 639.4449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 808.355 641.9849 0)
@@ -28169,7 +28244,7 @@
   (symbol (lib_id "power:GND") (at 632.46 120.65 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ec96dbdd-e5f0-43b3-a507-3980f011865f)
-    (property "Reference" "#PWR034" (id 0) (at 632.46 127 0)
+    (property "Reference" "#PWR026" (id 0) (at 632.46 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 632.46 123.825 0)
@@ -28230,7 +28305,7 @@
   (symbol (lib_id "Device:R_Small") (at 1028.7 585.47 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ed743c19-5b6f-4d1d-82f1-d1245d0f6e57)
-    (property "Reference" "R54" (id 0) (at 1031.24 584.8349 0)
+    (property "Reference" "R55" (id 0) (at 1031.24 584.8349 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 1031.24 587.3749 0)
@@ -28400,7 +28475,7 @@
   (symbol (lib_id "Device:R_Small") (at 996.315 617.22 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f06df7b9-e946-49aa-ae07-95cc356154d5)
-    (property "Reference" "R71" (id 0) (at 998.855 616.5849 0)
+    (property "Reference" "R72" (id 0) (at 998.855 616.5849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 998.855 619.1249 0)
@@ -28440,7 +28515,7 @@
   (symbol (lib_id "Device:R_Small") (at 882.015 680.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f12f4002-e696-443a-bcb5-4650195c1eef)
-    (property "Reference" "R99" (id 0) (at 884.555 680.0849 0)
+    (property "Reference" "R100" (id 0) (at 884.555 680.0849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 884.555 682.6249 0)
@@ -28570,7 +28645,7 @@
   (symbol (lib_id "Device:C_Small") (at 537.845 118.11 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f3c35740-0698-446c-9bc1-79317c4d9273)
-    (property "Reference" "C11" (id 0) (at 535.94 116.84 0)
+    (property "Reference" "C12" (id 0) (at 535.94 116.84 0)
       (effects (font (size 0.762 0.762)) (justify right))
     )
     (property "Value" "10n" (id 1) (at 535.94 118.11 0)
@@ -28708,7 +28783,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 739.775 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid f54e9298-7da4-4b95-8430-61ea36be9215)
-    (property "Reference" "LED7" (id 0) (at 743.585 553.0849 90)
+    (property "Reference" "LED8" (id 0) (at 743.585 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 743.585 554.3549 90)
@@ -28765,7 +28840,7 @@
   (symbol (lib_id "Device:R_Small") (at 869.315 544.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f65006f4-a349-43d6-a6ad-795697ddfcae)
-    (property "Reference" "R27" (id 0) (at 871.855 544.1949 0)
+    (property "Reference" "R28" (id 0) (at 871.855 544.1949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 871.855 546.7349 0)
@@ -28936,7 +29011,7 @@
   (symbol (lib_id "acheron_Symbols:LED") (at 815.975 553.72 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid f9b686bf-5789-44cd-b47c-c1b34e339abc)
-    (property "Reference" "LED13" (id 0) (at 819.785 553.0849 90)
+    (property "Reference" "LED14" (id 0) (at 819.785 553.0849 90)
       (effects (font (size 0.508 0.508)) (justify left))
     )
     (property "Value" "LED" (id 1) (at 819.785 554.3549 90)
@@ -29133,7 +29208,7 @@
   (symbol (lib_id "Device:R_Small") (at 901.065 640.08 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fc486369-bd62-4de4-8ae5-d34fccc801c7)
-    (property "Reference" "R81" (id 0) (at 903.605 639.4449 0)
+    (property "Reference" "R82" (id 0) (at 903.605 639.4449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 903.605 641.9849 0)
@@ -29175,7 +29250,7 @@
   (symbol (lib_id "Device:R_Small") (at 586.105 266.7 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fc61f821-81c3-49ae-882f-521483ac916b)
-    (property "Reference" "R15" (id 0) (at 586.105 264.795 90)
+    (property "Reference" "R16" (id 0) (at 586.105 264.795 90)
       (effects (font (size 0.7874 0.7874)))
     )
     (property "Value" "10k" (id 1) (at 586.105 266.7 90)
@@ -29233,7 +29308,7 @@
   (symbol (lib_id "Device:R_Small") (at 729.615 608.33 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fcf605ca-6925-494e-999b-0bdce11044f3)
-    (property "Reference" "R57" (id 0) (at 732.155 607.6949 0)
+    (property "Reference" "R58" (id 0) (at 732.155 607.6949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (id 1) (at 732.155 610.2349 0)
@@ -29531,7 +29606,7 @@
   (symbol (lib_id "Device:C") (at 501.015 115.57 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ffab57cb-fc12-4e1e-85c7-0df763c91df2)
-    (property "Reference" "C7" (id 0) (at 497.84 116.84 0)
+    (property "Reference" "C8" (id 0) (at 497.84 116.84 0)
       (effects (font (size 0.762 0.762)) (justify right))
     )
     (property "Value" "1u" (id 1) (at 497.84 115.57 0)
@@ -29609,55 +29684,55 @@
     (path "/701cf745-0a2c-4ba5-9f73-a9c22c550716"
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
-    (path "/5466728e-3874-4eb1-b4f0-766223053274"
+    (path "/b095c784-bea0-4602-bfc0-b502808a1d0f"
       (reference "#PWR018") (unit 1) (value "GND") (footprint "")
     )
-    (path "/67ba9740-067b-4fa9-b168-03d18f72ae73"
+    (path "/5466728e-3874-4eb1-b4f0-766223053274"
       (reference "#PWR019") (unit 1) (value "GND") (footprint "")
     )
-    (path "/b095c784-bea0-4602-bfc0-b502808a1d0f"
+    (path "/67ba9740-067b-4fa9-b168-03d18f72ae73"
       (reference "#PWR020") (unit 1) (value "GND") (footprint "")
     )
     (path "/95f207cb-be9c-4a9b-8818-7e9097d43f80"
       (reference "#PWR021") (unit 1) (value "GND") (footprint "")
     )
-    (path "/e87e86fd-d90f-482b-b45e-8fe93bb263a8"
+    (path "/eba87e85-eb64-4a19-bbe9-41d2389aefd8"
       (reference "#PWR022") (unit 1) (value "GND") (footprint "")
     )
-    (path "/507d47a0-75d5-4b84-9a87-d0d71681b546"
+    (path "/e87e86fd-d90f-482b-b45e-8fe93bb263a8"
       (reference "#PWR023") (unit 1) (value "GND") (footprint "")
     )
-    (path "/3de28eaa-96a5-425b-bf05-36ffdf2ad6e5"
+    (path "/507d47a0-75d5-4b84-9a87-d0d71681b546"
       (reference "#PWR024") (unit 1) (value "GND") (footprint "")
     )
-    (path "/53a8f53f-38a3-47a0-a1a1-d446644ee34c"
+    (path "/3de28eaa-96a5-425b-bf05-36ffdf2ad6e5"
       (reference "#PWR025") (unit 1) (value "GND") (footprint "")
     )
-    (path "/4eacd81f-f9ab-4325-a273-2b99af8e5f5d"
+    (path "/ec96dbdd-e5f0-43b3-a507-3980f011865f"
       (reference "#PWR026") (unit 1) (value "GND") (footprint "")
     )
-    (path "/938260f6-e6d4-418c-9a03-b3a3c3d0ff0f"
+    (path "/53a8f53f-38a3-47a0-a1a1-d446644ee34c"
       (reference "#PWR027") (unit 1) (value "GND") (footprint "")
     )
-    (path "/6ee75561-ce84-4a22-bee2-e6de9eaa71cb"
+    (path "/4eacd81f-f9ab-4325-a273-2b99af8e5f5d"
       (reference "#PWR028") (unit 1) (value "GND") (footprint "")
     )
-    (path "/2cfe4dd6-4fbc-47b5-8e45-bcacec09a3ce"
+    (path "/938260f6-e6d4-418c-9a03-b3a3c3d0ff0f"
       (reference "#PWR029") (unit 1) (value "GND") (footprint "")
     )
-    (path "/71e0910d-dcdd-4794-95e2-743bf1b508f5"
+    (path "/6ee75561-ce84-4a22-bee2-e6de9eaa71cb"
       (reference "#PWR030") (unit 1) (value "GND") (footprint "")
     )
-    (path "/511162cd-cae1-4d16-9130-0de1e189e790"
+    (path "/2cfe4dd6-4fbc-47b5-8e45-bcacec09a3ce"
       (reference "#PWR031") (unit 1) (value "GND") (footprint "")
     )
-    (path "/aefe9bfe-94a3-4773-99b0-f4aca60cf71d"
+    (path "/71e0910d-dcdd-4794-95e2-743bf1b508f5"
       (reference "#PWR032") (unit 1) (value "GND") (footprint "")
     )
-    (path "/eba87e85-eb64-4a19-bbe9-41d2389aefd8"
+    (path "/511162cd-cae1-4d16-9130-0de1e189e790"
       (reference "#PWR033") (unit 1) (value "GND") (footprint "")
     )
-    (path "/ec96dbdd-e5f0-43b3-a507-3980f011865f"
+    (path "/aefe9bfe-94a3-4773-99b0-f4aca60cf71d"
       (reference "#PWR034") (unit 1) (value "GND") (footprint "")
     )
     (path "/5389f896-892b-4ec8-b36e-ff8609e0e314"
@@ -30287,23 +30362,23 @@
     (path "/96a3195e-4723-45a4-8afc-e1eed0f50c41"
       (reference "C6") (unit 1) (value "10u") (footprint "acheron_Components:CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder")
     )
-    (path "/ffab57cb-fc12-4e1e-85c7-0df763c91df2"
-      (reference "C7") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    (path "/d781313c-b475-45e0-b119-66945ae4a899"
+      (reference "C7") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/22e0d835-3c0d-4f15-9b8b-77cf6d7ab190"
+    (path "/ffab57cb-fc12-4e1e-85c7-0df763c91df2"
       (reference "C8") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/a2525e67-3c27-4302-a0a1-33c7fe2d0219"
-      (reference "C9") (unit 1) (value "16p") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/22e0d835-3c0d-4f15-9b8b-77cf6d7ab190"
+      (reference "C9") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/a06543b8-a8d4-4924-85d0-c37f94a0f619"
+    (path "/a2525e67-3c27-4302-a0a1-33c7fe2d0219"
       (reference "C10") (unit 1) (value "16p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/f3c35740-0698-446c-9bc1-79317c4d9273"
-      (reference "C11") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/a06543b8-a8d4-4924-85d0-c37f94a0f619"
+      (reference "C11") (unit 1) (value "16p") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/d781313c-b475-45e0-b119-66945ae4a899"
-      (reference "C12") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/f3c35740-0698-446c-9bc1-79317c4d9273"
+      (reference "C12") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/0ecb979c-7a4f-409d-9dc0-d23ce239d948"
       (reference "C13") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -30326,8 +30401,8 @@
     (path "/b1a9ee11-cb1a-4f08-a32a-f17300a09a9e"
       (reference "C19") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/b2f3003b-0463-48d1-8c83-5c752b917a2a"
-      (reference "C20") (unit 1) (value "1u") (footprint "acheron_Components:CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder")
+    (path "/dc7997a4-8fef-462a-9540-827c2661f4d7"
+      (reference "C20") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/5a32790c-8ed5-4c3e-a80d-d8c1b8c173f5"
       (reference "C21") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -30836,14 +30911,17 @@
     (path "/230cddb3-b69d-4aff-bb4b-77b2964a238b"
       (reference "GR5") (unit 1) (value "Athena Letters") (footprint "athena_library:athena_letters_plated_22x2.7mm")
     )
+    (path "/7559c2e7-75a2-4992-b944-3824dfddccd2"
+      (reference "GR6") (unit 1) (value "Warning") (footprint "acheron_Graphics:Warning_Sign_3.6x3.2mm")
+    )
     (path "/20d2c6b7-4b2e-4449-b95d-390dc10564dd"
-      (reference "GR6") (unit 1) (value "Athena Label") (footprint "athena_library:athena_label_35x5.6")
+      (reference "GR7") (unit 1) (value "Athena Label") (footprint "athena_library:athena_label_35x5.6")
     )
     (path "/9ebc2618-0157-4ec6-84a5-e700194d4826"
-      (reference "GR7") (unit 1) (value "Acheron Logo") (footprint "acheron_Logos:acheronLong")
+      (reference "GR8") (unit 1) (value "Acheron Logo") (footprint "acheron_Logos:acheronLong")
     )
     (path "/c794e1cf-13db-438c-b1d1-a66c81189b65"
-      (reference "GR8") (unit 1) (value "Warning") (footprint "acheron_Graphics:Warning_Sign_3.6x3.2mm")
+      (reference "GR9") (unit 1) (value "Warning") (footprint "acheron_Graphics:Warning_Sign_3.6x3.2mm")
     )
     (path "/e93edc42-1bb6-4205-ad4f-95d7304975bc"
       (reference "H1") (unit 1) (value "DB_RGB_PASSTHROUGH_HOLE") (footprint "athena_library:rgb_daughterboard_notch_plated_8x4mm")
@@ -30866,73 +30944,73 @@
     (path "/5ff6eec4-4f89-4a82-93bf-381accf819ed"
       (reference "LED2") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/6aba571f-1bc4-425a-a9d1-80795d545bf7"
+    (path "/5d4966c5-b8bd-4e94-a1b5-89b3c55ebe1f"
       (reference "LED3") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/aaf6b2e7-24a4-4671-8854-2f6709424931"
+    (path "/6aba571f-1bc4-425a-a9d1-80795d545bf7"
       (reference "LED4") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/e1906426-6072-4168-983c-c4b25bb89012"
+    (path "/aaf6b2e7-24a4-4671-8854-2f6709424931"
       (reference "LED5") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/6fc3432f-4e08-457c-baf5-23063b5bcdc2"
+    (path "/e1906426-6072-4168-983c-c4b25bb89012"
       (reference "LED6") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/f54e9298-7da4-4b95-8430-61ea36be9215"
+    (path "/6fc3432f-4e08-457c-baf5-23063b5bcdc2"
       (reference "LED7") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/75150909-76fa-4172-996d-22bd1a5bf808"
+    (path "/f54e9298-7da4-4b95-8430-61ea36be9215"
       (reference "LED8") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/0a6e3e6d-9c5b-46b3-b4c8-a166bb95fb69"
+    (path "/75150909-76fa-4172-996d-22bd1a5bf808"
       (reference "LED9") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/24a772ff-fc9f-44b0-b5ae-213d5173938e"
+    (path "/0a6e3e6d-9c5b-46b3-b4c8-a166bb95fb69"
       (reference "LED10") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/65864269-a38d-4aab-b49f-4368b8cbc442"
+    (path "/24a772ff-fc9f-44b0-b5ae-213d5173938e"
       (reference "LED11") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/28429823-5227-41e3-9791-72aa9300a9e3"
+    (path "/65864269-a38d-4aab-b49f-4368b8cbc442"
       (reference "LED12") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/f9b686bf-5789-44cd-b47c-c1b34e339abc"
+    (path "/28429823-5227-41e3-9791-72aa9300a9e3"
       (reference "LED13") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/9b626226-6292-4aca-aeaf-b41df6d3d466"
+    (path "/f9b686bf-5789-44cd-b47c-c1b34e339abc"
       (reference "LED14") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/0bebf09d-083d-4b60-88d1-2b28969e24c0"
+    (path "/9b626226-6292-4aca-aeaf-b41df6d3d466"
       (reference "LED15") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/d89fe687-6849-4f56-9c37-82ba45134e6d"
+    (path "/0bebf09d-083d-4b60-88d1-2b28969e24c0"
       (reference "LED16") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/a20ccf73-fbfd-4941-ab84-8d95b0b73630"
+    (path "/d89fe687-6849-4f56-9c37-82ba45134e6d"
       (reference "LED17") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/66c70442-1d84-4bdf-b2d0-0000a065507e"
+    (path "/a20ccf73-fbfd-4941-ab84-8d95b0b73630"
       (reference "LED18") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/a375b4e8-b299-49b8-9159-ff68cec7b9d9"
+    (path "/66c70442-1d84-4bdf-b2d0-0000a065507e"
       (reference "LED19") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/a77e2276-ba7b-4f28-bbe3-f9fe47ed941a"
+    (path "/a375b4e8-b299-49b8-9159-ff68cec7b9d9"
       (reference "LED20") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/144a122e-31bb-4f8e-be02-0abcbedfc6e3"
+    (path "/a77e2276-ba7b-4f28-bbe3-f9fe47ed941a"
       (reference "LED21") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/ca4b202d-67a0-452b-81df-4d1727445c36"
+    (path "/144a122e-31bb-4f8e-be02-0abcbedfc6e3"
       (reference "LED22") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/bd8615f6-8c3e-4f05-89ad-8fc1eff3ba2f"
+    (path "/ca4b202d-67a0-452b-81df-4d1727445c36"
       (reference "LED23") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/c9b101ff-fe0e-4096-9c86-404b92611550"
+    (path "/bd8615f6-8c3e-4f05-89ad-8fc1eff3ba2f"
       (reference "LED24") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
-    (path "/5d4966c5-b8bd-4e94-a1b5-89b3c55ebe1f"
+    (path "/c9b101ff-fe0e-4096-9c86-404b92611550"
       (reference "LED25") (unit 1) (value "LED") (footprint "acheron_Components:LED_THT_2.54mm")
     )
     (path "/aa302905-959c-46c2-b22a-e526faaf811d"
@@ -31217,94 +31295,94 @@
     (path "/07d67354-2f31-4688-84f9-c78d8173f73f"
       (reference "R2") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/e8d9407b-1f9a-47a9-869f-19887b60dd9b"
+      (reference "R3") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/d0b6c32f-b916-475f-a01c-7e23511a7f77"
-      (reference "R3") (unit 1) (value "330k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R4") (unit 1) (value "330k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/de071f2d-32e0-43f7-9a0e-c55f66883a2f"
-      (reference "R4") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R5") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/1e4a1eb1-480a-474a-8e7c-f2bec6611185"
-      (reference "R5") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R6") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/a01d9186-5bd7-4517-b898-a2ae8222699e"
-      (reference "R6") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/deaaaf26-a76c-4592-9f72-d017138b322c"
-      (reference "R7") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/361d0642-9c69-4ccc-8e9d-cbab1016c6e6"
-      (reference "R8") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/2e1c2843-7284-4ca6-94c8-d35f34e2b3a6"
-      (reference "R9") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/85dd281e-134a-4566-a6ad-1dd6c44543ab"
-      (reference "R10") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R7") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/7aca2fcb-3c65-4024-bbfa-40d97d4442b3"
-      (reference "R11") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R8") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/8cb38116-c43d-42a9-b44a-52932123e352"
-      (reference "R12") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R9") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/deaaaf26-a76c-4592-9f72-d017138b322c"
+      (reference "R10") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/361d0642-9c69-4ccc-8e9d-cbab1016c6e6"
+      (reference "R11") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/2e1c2843-7284-4ca6-94c8-d35f34e2b3a6"
+      (reference "R12") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/2765bca1-efa6-4b34-b4c2-81502619cb1b"
       (reference "R13") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/85dd281e-134a-4566-a6ad-1dd6c44543ab"
+      (reference "R14") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/d92258f7-3ef7-46f3-b5fc-917875457c3e"
-      (reference "R14") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R15") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/fc61f821-81c3-49ae-882f-521483ac916b"
-      (reference "R15") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/9c6b8d36-f1c7-46e0-8de4-573a59623624"
       (reference "R16") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/48e242fe-7a87-42b7-a389-9cc3c50feebf"
-      (reference "R17") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
+    (path "/9c6b8d36-f1c7-46e0-8de4-573a59623624"
+      (reference "R17") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/cefce47e-3172-4df6-b48e-15f6d495654a"
+    (path "/48e242fe-7a87-42b7-a389-9cc3c50feebf"
       (reference "R18") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/2d354345-c46b-4f50-b0bf-1ca4da1e0951"
-      (reference "R19") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/cefce47e-3172-4df6-b48e-15f6d495654a"
+      (reference "R19") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/76ea2d10-b5b6-4dbe-b0c5-3d423d1099d6"
+    (path "/2d354345-c46b-4f50-b0bf-1ca4da1e0951"
       (reference "R20") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/48b21a4f-2692-4c83-871d-836601f26069"
+    (path "/76ea2d10-b5b6-4dbe-b0c5-3d423d1099d6"
       (reference "R21") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/a9279ca6-55fb-40f3-89d3-bd6aeb1b816c"
+    (path "/48b21a4f-2692-4c83-871d-836601f26069"
       (reference "R22") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/71b0c00e-56b6-4d5e-b2db-484a33d4a43d"
+    (path "/a9279ca6-55fb-40f3-89d3-bd6aeb1b816c"
       (reference "R23") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/6a6c6d27-fd38-4894-b6d7-b75c896e2b57"
+    (path "/71b0c00e-56b6-4d5e-b2db-484a33d4a43d"
       (reference "R24") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/8998ef12-b3fc-4f94-bf55-801ecf5e622f"
+    (path "/6a6c6d27-fd38-4894-b6d7-b75c896e2b57"
       (reference "R25") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/611f9c7e-8983-45ef-a979-52fa7b242e45"
+    (path "/8998ef12-b3fc-4f94-bf55-801ecf5e622f"
       (reference "R26") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/f65006f4-a349-43d6-a6ad-795697ddfcae"
+    (path "/611f9c7e-8983-45ef-a979-52fa7b242e45"
       (reference "R27") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/d121cfad-3926-40f3-af97-4eadbf88815a"
+    (path "/f65006f4-a349-43d6-a6ad-795697ddfcae"
       (reference "R28") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/216dc391-d4db-4adf-add1-5af0ef45fa67"
+    (path "/d121cfad-3926-40f3-af97-4eadbf88815a"
       (reference "R29") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/7386d805-e300-433c-8f1b-ea1a18af825a"
+    (path "/216dc391-d4db-4adf-add1-5af0ef45fa67"
       (reference "R30") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/4e8e100c-7016-410a-849d-d7b1d08aa6e0"
+    (path "/7386d805-e300-433c-8f1b-ea1a18af825a"
       (reference "R31") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/b45bdde0-c901-4b60-9528-b85b421c7d6a"
+    (path "/4e8e100c-7016-410a-849d-d7b1d08aa6e0"
       (reference "R32") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/e7b3aac4-6fc7-494e-a4da-45dd5dd30e4b"
@@ -31319,245 +31397,248 @@
     (path "/bb882f06-22cd-40ee-a63f-adff704154ba"
       (reference "R36") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/13062705-5ec5-48b3-aa24-4b0e89c9438b"
+    (path "/b45bdde0-c901-4b60-9528-b85b421c7d6a"
       (reference "R37") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/6a022b29-64ff-4c0d-9525-f376ad07b43d"
+    (path "/13062705-5ec5-48b3-aa24-4b0e89c9438b"
       (reference "R38") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/1fe1e800-65d9-4e11-9e8f-8b9ff7b2d535"
+    (path "/6a022b29-64ff-4c0d-9525-f376ad07b43d"
       (reference "R39") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/d5b5e44e-2cb1-4cf4-874a-bf71c34285df"
+    (path "/1fe1e800-65d9-4e11-9e8f-8b9ff7b2d535"
       (reference "R40") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/914da29c-8e33-45f4-b06d-9283323630ad"
+    (path "/d5b5e44e-2cb1-4cf4-874a-bf71c34285df"
       (reference "R41") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/c99b6805-1174-4d11-ab2c-7a5a3a58cb30"
+    (path "/914da29c-8e33-45f4-b06d-9283323630ad"
       (reference "R42") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/829e53b6-d440-4778-accd-567ebae4e706"
+    (path "/c99b6805-1174-4d11-ab2c-7a5a3a58cb30"
       (reference "R43") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/c830e221-fa43-4e08-b869-60868e47d541"
+    (path "/829e53b6-d440-4778-accd-567ebae4e706"
       (reference "R44") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/b67e106a-8289-4a33-93cd-b06f6a2fb1cb"
+    (path "/c830e221-fa43-4e08-b869-60868e47d541"
       (reference "R45") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/ec0c469b-8b2d-40a9-806e-9e9800e2799a"
+    (path "/b67e106a-8289-4a33-93cd-b06f6a2fb1cb"
       (reference "R46") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/3a80f352-8312-4bc6-9b47-e1742c85b2d4"
+    (path "/ec0c469b-8b2d-40a9-806e-9e9800e2799a"
       (reference "R47") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/d3e42260-3027-4004-a16a-7c81dfe6b1bd"
+    (path "/3a80f352-8312-4bc6-9b47-e1742c85b2d4"
       (reference "R48") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/ebdc6d78-e199-4941-be1b-456f5fd45d5d"
+    (path "/d3e42260-3027-4004-a16a-7c81dfe6b1bd"
       (reference "R49") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/632783c3-8e7d-4e6e-b059-26c68d7ea432"
+    (path "/ebdc6d78-e199-4941-be1b-456f5fd45d5d"
       (reference "R50") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/3dc5cd43-ff87-41e6-a656-09db9eaf964f"
+    (path "/632783c3-8e7d-4e6e-b059-26c68d7ea432"
       (reference "R51") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/6bfc5c77-1c07-44b7-988b-a7ae5b71bd1b"
+    (path "/3dc5cd43-ff87-41e6-a656-09db9eaf964f"
       (reference "R52") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/a05e8428-9c2f-43af-9f7d-e72b6958d9e0"
+    (path "/6bfc5c77-1c07-44b7-988b-a7ae5b71bd1b"
       (reference "R53") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/ed743c19-5b6f-4d1d-82f1-d1245d0f6e57"
+    (path "/a05e8428-9c2f-43af-9f7d-e72b6958d9e0"
       (reference "R54") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/c0214dfd-868e-476a-bbb0-304224d544f6"
+    (path "/ed743c19-5b6f-4d1d-82f1-d1245d0f6e57"
       (reference "R55") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/bab23800-e536-4353-adbd-93414973e37a"
+    (path "/c0214dfd-868e-476a-bbb0-304224d544f6"
       (reference "R56") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/fcf605ca-6925-494e-999b-0bdce11044f3"
+    (path "/bab23800-e536-4353-adbd-93414973e37a"
       (reference "R57") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/30fe2c55-7fcc-4241-9728-93e5694f9855"
+    (path "/fcf605ca-6925-494e-999b-0bdce11044f3"
       (reference "R58") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/ab5fcf71-e01f-49b7-84ca-911461084800"
+    (path "/30fe2c55-7fcc-4241-9728-93e5694f9855"
       (reference "R59") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/e234f4fe-c700-4104-af9e-6336a31892e3"
+    (path "/ab5fcf71-e01f-49b7-84ca-911461084800"
       (reference "R60") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/8dd3accb-fd0a-48c8-b991-bfd1307086ac"
+    (path "/e234f4fe-c700-4104-af9e-6336a31892e3"
       (reference "R61") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/2900e587-cee7-47e3-8232-76981f12e169"
+    (path "/8dd3accb-fd0a-48c8-b991-bfd1307086ac"
       (reference "R62") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/4d77da4e-8e3a-49b8-b4ed-0f5017df2b56"
+    (path "/2900e587-cee7-47e3-8232-76981f12e169"
       (reference "R63") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/69b9f0d0-f238-460e-80e2-274490c43339"
+    (path "/4d77da4e-8e3a-49b8-b4ed-0f5017df2b56"
       (reference "R64") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/966b3376-7ab6-4bb0-864b-892b0ede974e"
+    (path "/69b9f0d0-f238-460e-80e2-274490c43339"
       (reference "R65") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/a70a55a7-a1c4-4baf-a8f7-4c02571f61b1"
+    (path "/966b3376-7ab6-4bb0-864b-892b0ede974e"
       (reference "R66") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/d766ddc3-468b-4dd3-ac51-6d579529ba1e"
+    (path "/a70a55a7-a1c4-4baf-a8f7-4c02571f61b1"
       (reference "R67") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/e8fca401-2da2-4f53-8b58-36c52b127d47"
+    (path "/d766ddc3-468b-4dd3-ac51-6d579529ba1e"
       (reference "R68") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/07723cf6-b04d-4b9b-9b16-c2e59319c823"
+    (path "/e8fca401-2da2-4f53-8b58-36c52b127d47"
       (reference "R69") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/157eaf7b-dd80-46ea-b883-612620792395"
+    (path "/07723cf6-b04d-4b9b-9b16-c2e59319c823"
       (reference "R70") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/f06df7b9-e946-49aa-ae07-95cc356154d5"
+    (path "/157eaf7b-dd80-46ea-b883-612620792395"
       (reference "R71") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/4a29bf81-d0b9-4382-9ca8-cf450592e416"
+    (path "/f06df7b9-e946-49aa-ae07-95cc356154d5"
       (reference "R72") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/e366eee7-4480-4870-aa35-ebfa4cd4153e"
+    (path "/4a29bf81-d0b9-4382-9ca8-cf450592e416"
       (reference "R73") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/84ea6833-610a-4c7c-8dae-748848657395"
+    (path "/e366eee7-4480-4870-aa35-ebfa4cd4153e"
       (reference "R74") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/a5052a3a-a77c-4175-9fc9-5ad7fa879d00"
+    (path "/84ea6833-610a-4c7c-8dae-748848657395"
       (reference "R75") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/adb6fefe-fa38-499d-a5b7-2d2ca41d4b84"
+    (path "/a5052a3a-a77c-4175-9fc9-5ad7fa879d00"
       (reference "R76") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/9f0ce351-a060-4ae7-9c0e-b51c30098414"
+    (path "/adb6fefe-fa38-499d-a5b7-2d2ca41d4b84"
       (reference "R77") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/b228a23f-b746-4b7e-b076-a7e22154558f"
+    (path "/9f0ce351-a060-4ae7-9c0e-b51c30098414"
       (reference "R78") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/ec830fa3-8b15-4cec-a928-1250be86a0a9"
+    (path "/b228a23f-b746-4b7e-b076-a7e22154558f"
       (reference "R79") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/0b4bbe0c-8cee-4785-a6b5-94a2735bb755"
+    (path "/ec830fa3-8b15-4cec-a928-1250be86a0a9"
       (reference "R80") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/fc486369-bd62-4de4-8ae5-d34fccc801c7"
+    (path "/0b4bbe0c-8cee-4785-a6b5-94a2735bb755"
       (reference "R81") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/8d5899b6-1fd2-4753-ac93-da8529629858"
+    (path "/fc486369-bd62-4de4-8ae5-d34fccc801c7"
       (reference "R82") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/a74224ed-f731-497e-b397-b6b0df3e0791"
+    (path "/8d5899b6-1fd2-4753-ac93-da8529629858"
       (reference "R83") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/656ad06a-bcb5-423d-9af0-3fcff3a23d18"
+    (path "/a74224ed-f731-497e-b397-b6b0df3e0791"
       (reference "R84") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/7b54dd3b-5d94-40ac-8858-d03af0a159aa"
+    (path "/656ad06a-bcb5-423d-9af0-3fcff3a23d18"
       (reference "R85") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/44d74c0d-3abc-4ebe-ae74-07239aefffcd"
+    (path "/7b54dd3b-5d94-40ac-8858-d03af0a159aa"
       (reference "R86") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/44d74c0d-3abc-4ebe-ae74-07239aefffcd"
+      (reference "R87") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
     (path "/ca2a2b11-7bdf-4f0d-a882-d122658d6702"
-      (reference "R87") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R88") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/7fe830db-e1a1-4e82-9b8d-bf6a34aafdfd"
-      (reference "R88") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/2e1e2558-a7ff-451e-b6eb-b4c80f2640e8"
       (reference "R89") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/6ed17271-4483-4ce7-99ee-6427c09af948"
+    (path "/2e1e2558-a7ff-451e-b6eb-b4c80f2640e8"
       (reference "R90") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/6ed17271-4483-4ce7-99ee-6427c09af948"
+      (reference "R91") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
     (path "/dbbeda4c-b3d9-4c7b-b986-6cda899af60b"
-      (reference "R91") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R92") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/79d0b365-a15f-4dc6-99ff-59950b8ca449"
-      (reference "R92") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/20039910-fc40-409f-a74e-ef01589448f7"
       (reference "R93") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/79fee670-0a29-4a64-ae4d-771c4d27453d"
+    (path "/20039910-fc40-409f-a74e-ef01589448f7"
       (reference "R94") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/b25523ce-4a9a-4ebe-babf-37bc229b61de"
+    (path "/79fee670-0a29-4a64-ae4d-771c4d27453d"
       (reference "R95") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/3c177710-4931-4306-b05f-2e707ececcb6"
+    (path "/b25523ce-4a9a-4ebe-babf-37bc229b61de"
       (reference "R96") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/321191d0-971e-41fd-aa0a-dde3e2927eb0"
+    (path "/3c177710-4931-4306-b05f-2e707ececcb6"
       (reference "R97") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/39da5230-0999-4e5e-877c-b2c46bcd4852"
+    (path "/321191d0-971e-41fd-aa0a-dde3e2927eb0"
       (reference "R98") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/f12f4002-e696-443a-bcb5-4650195c1eef"
+    (path "/39da5230-0999-4e5e-877c-b2c46bcd4852"
       (reference "R99") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/dab2d5be-124a-487d-b5e0-1a55067cc57e"
+    (path "/f12f4002-e696-443a-bcb5-4650195c1eef"
       (reference "R100") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/92716e03-da77-4311-ad27-ef927fb5c029"
+    (path "/dab2d5be-124a-487d-b5e0-1a55067cc57e"
       (reference "R101") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/b2eb0ec3-12ff-418e-b809-442bd8cc58d5"
+    (path "/92716e03-da77-4311-ad27-ef927fb5c029"
       (reference "R102") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/b21ec3d0-d427-4c25-9449-565cd940bfc6"
+    (path "/b2eb0ec3-12ff-418e-b809-442bd8cc58d5"
       (reference "R103") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/a0713369-b89f-4eba-bfa8-1e15ae3030db"
+    (path "/b21ec3d0-d427-4c25-9449-565cd940bfc6"
       (reference "R104") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/d2fd0c6c-2a97-4597-9f37-4a26674c90bc"
+    (path "/a0713369-b89f-4eba-bfa8-1e15ae3030db"
       (reference "R105") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/93bb2719-a81e-406e-b062-cb9c2546bf51"
+    (path "/d2fd0c6c-2a97-4597-9f37-4a26674c90bc"
       (reference "R106") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/bae006dd-a23f-4d5e-a27b-304b7df75e3c"
+    (path "/93bb2719-a81e-406e-b062-cb9c2546bf51"
       (reference "R107") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/7c4bb8f7-7966-4b4c-a13e-51cde0677aff"
+    (path "/bae006dd-a23f-4d5e-a27b-304b7df75e3c"
       (reference "R108") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/188ceca2-1624-4d12-be52-e069af6b196f"
+    (path "/7c4bb8f7-7966-4b4c-a13e-51cde0677aff"
       (reference "R109") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/3c305c15-88c8-47cc-acf4-2e156f1ad9c2"
+    (path "/188ceca2-1624-4d12-be52-e069af6b196f"
       (reference "R110") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/a82fcb93-2570-4183-8154-e2f77fd6a28c"
+    (path "/3c305c15-88c8-47cc-acf4-2e156f1ad9c2"
       (reference "R111") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/ec22d12b-cdff-4f7f-a9e7-8ef5642763fc"
+    (path "/a82fcb93-2570-4183-8154-e2f77fd6a28c"
       (reference "R112") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/8889992c-501b-41c6-a27a-2cb26f5118b8"
+    (path "/ec22d12b-cdff-4f7f-a9e7-8ef5642763fc"
       (reference "R113") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/7bdfd5f2-d2bf-4bff-8fd5-97aa53b59cbc"
+    (path "/8889992c-501b-41c6-a27a-2cb26f5118b8"
       (reference "R114") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/b6bb32d6-2844-4c7d-b175-8bc947875d63"
+    (path "/7bdfd5f2-d2bf-4bff-8fd5-97aa53b59cbc"
       (reference "R115") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/03fbd999-de26-4c0d-a0cb-832dfe6c5227"
+    (path "/b6bb32d6-2844-4c7d-b175-8bc947875d63"
       (reference "R116") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/03fbd999-de26-4c0d-a0cb-832dfe6c5227"
+      (reference "R117") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/e16bc5bc-95ca-4458-8ce8-ddcb1331a006"
       (reference "SW1") (unit 1) (value "K2-1187SQ-A4SW-06") (footprint "acheron_Hardware:K2-1187SQ-A4SW-06")
