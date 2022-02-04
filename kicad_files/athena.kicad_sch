@@ -12010,7 +12010,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 373.38 139.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 0879a852-bab8-4691-b71a-f2669a454bef)
     (property "Reference" "X4" (id 0) (at 374.65 130.81 0))
     (property "Value" "EXTRA_PINS" (id 1) (at 374.65 133.35 0))
@@ -28288,7 +28288,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 373.38 157.48 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid d4794f90-9321-4627-b929-ac496910daef)
     (property "Reference" "X5" (id 0) (at 374.65 146.05 0))
     (property "Value" "EXTRA_PINS" (id 1) (at 374.65 148.59 0))
@@ -29089,7 +29089,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 668.655 254 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid dc1a87ef-deba-4f10-80da-eaf490aff015)
     (property "Reference" "X7" (id 0) (at 667.385 245.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -29104,9 +29104,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC Part Number" "" (id 6) (at 668.655 254 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Specification" "" (id 7) (at 668.655 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5bd58b01-d022-4a2c-9c8b-6f1e9ad7a6e0))
