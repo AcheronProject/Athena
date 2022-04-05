@@ -2459,10 +2459,12 @@
           (name "PA2/TIM2_CH3/USART2_TX" (effects (font (size 0.254 0.254))))
           (number "16" (effects (font (size 0.508 0.508))))
           (alternate "" input line)
+          (alternate "" input line)
         )
         (pin bidirectional line (at -47.625 -56.515 90) (length 2.54)
           (name "PA3/TIM2_CH4/USART2_RX" (effects (font (size 0.254 0.254))))
           (number "17" (effects (font (size 0.508 0.508))))
+          (alternate "" input line)
           (alternate "" input line)
         )
         (pin power_out line (at -41.275 -56.515 90) (length 2.54)
@@ -11456,7 +11458,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 487.68 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 022f6b2d-5d00-47f4-b80b-a31f803cb634)
-    (property "Reference" "SW43" (id 0) (at 487.68 566.42 0))
+    (property "Reference" "SW47" (id 0) (at 487.68 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 487.68 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -11485,7 +11487,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 411.48 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 02464f5b-5885-4574-afef-09ed51d4289c)
-    (property "Reference" "SW40" (id 0) (at 407.67 564.515 0)
+    (property "Reference" "SW44" (id 0) (at 407.67 564.515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 411.48 570.865 0)
@@ -11781,7 +11783,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 208.28 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0510b995-8414-47ed-beb9-0619309a0d4f)
-    (property "Reference" "SW50" (id 0) (at 208.28 604.52 0))
+    (property "Reference" "SW54" (id 0) (at 208.28 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 208.28 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -11866,7 +11868,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 436.88 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0657132a-28f4-4331-8a96-f732e0233a48)
-    (property "Reference" "SW41" (id 0) (at 436.88 566.42 0))
+    (property "Reference" "SW45" (id 0) (at 436.88 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 436.88 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -11981,7 +11983,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 81.28 724.535 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 08030982-03a3-491b-9f52-de682baa3c55)
-    (property "Reference" "SW96" (id 0) (at 81.915 721.36 90)
+    (property "Reference" "SW100" (id 0) (at 81.915 721.36 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 85.09 724.535 0)
@@ -12031,7 +12033,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 106.68 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 08cdf901-feab-4882-b6e8-474961a26fa7)
-    (property "Reference" "SW28" (id 0) (at 106.68 566.42 0))
+    (property "Reference" "SW32" (id 0) (at 106.68 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 106.68 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -12099,7 +12101,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 411.48 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 09a08b9c-5373-4fb5-a306-b3a41d2f8cc0)
-    (property "Reference" "SW58" (id 0) (at 411.48 604.52 0))
+    (property "Reference" "SW62" (id 0) (at 411.48 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 411.48 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -12595,7 +12597,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 157.48 683.895 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 10b9194f-7079-4269-bc8f-0cf247d6d78e)
-    (property "Reference" "SW82" (id 0) (at 157.48 683.26 0))
+    (property "Reference" "SW86" (id 0) (at 157.48 683.26 0))
     (property "Value" "MX Switch" (id 1) (at 157.48 687.705 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -12749,7 +12751,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 182.88 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 148cf4c2-0cb0-418d-ba13-f7f207788d20)
-    (property "Reference" "SW49" (id 0) (at 182.88 604.52 0))
+    (property "Reference" "SW53" (id 0) (at 182.88 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 182.88 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -12992,7 +12994,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 360.68 683.895 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 18296d07-fc7e-4530-87dc-2689d6ff228d)
-    (property "Reference" "SW90" (id 0) (at 360.68 683.26 0))
+    (property "Reference" "SW94" (id 0) (at 360.68 683.26 0))
     (property "Value" "MX Switch" (id 1) (at 360.68 687.705 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -13403,7 +13405,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 436.88 643.255 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1f08b8cd-1eb0-4d99-a47b-b3626b7135a0)
-    (property "Reference" "SW76" (id 0) (at 436.88 642.62 90))
+    (property "Reference" "SW80" (id 0) (at 436.88 642.62 90))
     (property "Value" "MX Switch" (id 1) (at 440.69 643.255 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -13583,7 +13585,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 462.28 683.895 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 21209dc3-5692-4952-96c4-461338ab0293)
-    (property "Reference" "SW93" (id 0) (at 461.645 683.895 90))
+    (property "Reference" "SW97" (id 0) (at 461.645 683.895 90))
     (property "Value" "MX Switch" (id 1) (at 462.28 687.705 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -13664,7 +13666,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 132.08 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 21b38d8f-fb6f-4e59-9ba3-2b4657c2aec4)
-    (property "Reference" "SW47" (id 0) (at 132.08 604.52 0))
+    (property "Reference" "SW51" (id 0) (at 132.08 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 132.08 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -13918,7 +13920,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 335.28 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 24664260-bb4b-4d79-aa14-e57691e17691)
-    (property "Reference" "SW55" (id 0) (at 335.28 604.52 0))
+    (property "Reference" "SW59" (id 0) (at 335.28 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 335.28 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -13999,7 +14001,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 411.48 724.535 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2519bc38-9cdc-4c68-91ea-78ff2a7079a2)
-    (property "Reference" "SW103" (id 0) (at 410.845 721.995 0))
+    (property "Reference" "SW107" (id 0) (at 410.845 721.995 0))
     (property "Value" "MX Switch" (id 1) (at 411.48 728.345 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -14061,7 +14063,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 309.88 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 25a64a7b-f284-4e7d-a15a-8a8f8c250415)
-    (property "Reference" "SW36" (id 0) (at 309.88 566.42 0))
+    (property "Reference" "SW40" (id 0) (at 309.88 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 309.88 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -14108,7 +14110,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 336.55 530.225 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 27637d1e-70d0-4f91-8b51-9ce03eb1cab3)
-    (property "Reference" "SW24" (id 0) (at 336.55 529.59 90)
+    (property "Reference" "SW27" (id 0) (at 336.55 529.59 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 336.55 534.035 0)
@@ -14281,7 +14283,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 132.08 643.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2a3e789c-d99e-479b-9485-5934bd7fea34)
-    (property "Reference" "SW64" (id 0) (at 132.08 642.62 0))
+    (property "Reference" "SW68" (id 0) (at 132.08 642.62 0))
     (property "Value" "MX Switch" (id 1) (at 132.08 647.065 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -14310,7 +14312,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 309.88 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2af6d6f9-c5ad-468f-94ea-77683b723dd2)
-    (property "Reference" "SW54" (id 0) (at 309.88 604.52 0))
+    (property "Reference" "SW58" (id 0) (at 309.88 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 309.88 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -14831,7 +14833,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 106.68 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2ea1c4ea-4f70-4507-8dc2-6fc95dc75405)
-    (property "Reference" "SW46" (id 0) (at 106.68 604.52 0))
+    (property "Reference" "SW50" (id 0) (at 106.68 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 106.68 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -15266,7 +15268,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 284.48 643.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 369e248e-7a7f-47ef-9bba-5e0ef83a2a5a)
-    (property "Reference" "SW70" (id 0) (at 284.48 642.62 0))
+    (property "Reference" "SW74" (id 0) (at 284.48 642.62 0))
     (property "Value" "MX Switch" (id 1) (at 284.48 647.065 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -16046,7 +16048,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 386.08 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 403c4900-f0cc-4851-87e9-4ed0bb65c640)
-    (property "Reference" "SW39" (id 0) (at 386.08 566.42 0))
+    (property "Reference" "SW43" (id 0) (at 386.08 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 386.08 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -16276,7 +16278,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 412.75 644.525 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 424d872f-e98f-4510-a79d-7eccab44f8fa)
-    (property "Reference" "SW78" (id 0) (at 407.67 645.795 0)
+    (property "Reference" "SW82" (id 0) (at 407.67 645.795 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 412.75 648.335 0)
@@ -16358,7 +16360,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 335.28 643.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4308f941-2da7-4c9e-b0a6-9fa4504667f8)
-    (property "Reference" "SW72" (id 0) (at 335.28 642.62 0))
+    (property "Reference" "SW76" (id 0) (at 335.28 642.62 0))
     (property "Value" "MX Switch" (id 1) (at 335.28 647.065 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -16387,7 +16389,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 360.68 724.535 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4327e9ee-1c8d-43f8-93f7-5e49b52b5f58)
-    (property "Reference" "SW102" (id 0) (at 357.505 726.44 90)
+    (property "Reference" "SW106" (id 0) (at 357.505 726.44 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 360.68 728.345 0)
@@ -16608,7 +16610,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 436.88 605.155 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4564419e-63ad-4ceb-8e60-b58693fb2aca)
-    (property "Reference" "SW59" (id 0) (at 436.88 604.52 90))
+    (property "Reference" "SW63" (id 0) (at 436.88 604.52 90))
     (property "Value" "MX Switch" (id 1) (at 440.69 605.155 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -16655,7 +16657,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 284.48 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4752c9df-9c7f-4605-b23f-d0edcc774fad)
-    (property "Reference" "SW35" (id 0) (at 284.48 566.42 0))
+    (property "Reference" "SW39" (id 0) (at 284.48 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 284.48 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -16721,7 +16723,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 360.68 643.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 47e73c4b-0a80-424e-909c-ec7b0aff981e)
-    (property "Reference" "SW73" (id 0) (at 360.68 642.62 0))
+    (property "Reference" "SW77" (id 0) (at 360.68 642.62 0))
     (property "Value" "MX Switch" (id 1) (at 360.68 647.065 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -16866,6 +16868,37 @@
     (pin "2" (uuid 925b32cf-8730-42e3-b72f-b2d09c7257a7))
   )
 
+  (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 234.95 530.225 90) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 4942c1a8-053a-4b0f-90b9-23dcf4f66939)
+    (property "Reference" "SW23" (id 0) (at 234.315 531.495 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MX Switch" (id 1) (at 238.76 530.225 0)
+      (effects (font (size 0.762 0.762)) hide)
+    )
+    (property "Footprint" "acheron_MX_SolderMask:MX100" (id 2) (at 234.95 530.225 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 234.95 530.225 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Keycode" "F5 (88)" (id 7) (at 233.68 533.4 90)
+      (effects (font (size 0.762 0.762)) (justify left))
+    )
+    (property "Manufacturer" "" (id 8) (at 234.95 530.225 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Specification" "MX-style mechanical keyboard switch" (id 9) (at 234.95 530.225 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "" (id 10) (at 234.95 530.225 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 25c78b9b-3a36-42ba-be8b-13d5449ba642))
+    (pin "2" (uuid 46c94123-03f2-41ba-afd0-267e139ce522))
+  )
+
   (symbol (lib_id "acheron_Symbols:LED") (at 691.515 673.1 270) (unit 1)
     (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 49667aaf-32c3-40ed-8182-56f3ce51197e)
@@ -16888,7 +16921,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 335.28 683.895 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4967cd82-bbb2-4439-a8d4-e46a76d23759)
-    (property "Reference" "SW89" (id 0) (at 335.28 683.26 0))
+    (property "Reference" "SW93" (id 0) (at 335.28 683.26 0))
     (property "Value" "MX Switch" (id 1) (at 335.28 687.705 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -16917,7 +16950,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 336.55 725.805 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 49a1ee40-4c31-49c7-8490-41d4ca2a5ea1)
-    (property "Reference" "SW111" (id 0) (at 336.55 726.44 90)
+    (property "Reference" "SW115" (id 0) (at 336.55 726.44 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 336.55 729.615 0)
@@ -17262,7 +17295,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 182.88 643.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4eaa9d5c-972f-42ed-88e5-fbbcf06b3f9b)
-    (property "Reference" "SW66" (id 0) (at 182.88 642.62 0))
+    (property "Reference" "SW70" (id 0) (at 182.88 642.62 0))
     (property "Value" "MX Switch" (id 1) (at 182.88 647.065 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -17417,7 +17450,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 284.48 683.895 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5210651b-beff-4474-8f1e-1fbf0d8d0c31)
-    (property "Reference" "SW87" (id 0) (at 284.48 683.26 0))
+    (property "Reference" "SW91" (id 0) (at 284.48 683.26 0))
     (property "Value" "MX Switch" (id 1) (at 284.48 687.705 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -17464,7 +17497,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 208.28 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 52ad03b1-45f2-4825-835e-0065a02c487a)
-    (property "Reference" "SW32" (id 0) (at 208.28 566.42 0))
+    (property "Reference" "SW36" (id 0) (at 208.28 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 208.28 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -17547,7 +17580,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 106.68 643.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 53b6b176-9a32-4506-a6e5-30d843f6f6bf)
-    (property "Reference" "SW63" (id 0) (at 106.68 642.62 0))
+    (property "Reference" "SW67" (id 0) (at 106.68 642.62 0))
     (property "Value" "MX Switch" (id 1) (at 106.68 647.065 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -17630,7 +17663,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 412.75 568.325 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 55a6093b-4b56-4f35-8909-12570f205413)
-    (property "Reference" "SW44" (id 0) (at 407.67 569.595 0)
+    (property "Reference" "SW48" (id 0) (at 407.67 569.595 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 412.75 572.135 0)
@@ -17793,7 +17826,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 81.28 605.155 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 586b872d-efef-492b-80c5-5980c362aba6)
-    (property "Reference" "SW45" (id 0) (at 81.28 604.52 90))
+    (property "Reference" "SW49" (id 0) (at 81.28 604.52 90))
     (property "Value" "MX Switch" (id 1) (at 85.09 605.155 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -17822,7 +17855,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 82.55 685.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 58da91e2-23d8-4d5e-8f75-a3cf800fb204)
-    (property "Reference" "SW95" (id 0) (at 76.835 686.435 0)
+    (property "Reference" "SW99" (id 0) (at 76.835 686.435 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 82.55 689.61 0)
@@ -18125,7 +18158,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 82.55 644.525 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5e46e129-6b9f-4cdb-9a39-b325a02605ce)
-    (property "Reference" "SW77" (id 0) (at 77.47 645.16 0)
+    (property "Reference" "SW81" (id 0) (at 77.47 645.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 82.55 648.335 0)
@@ -18174,7 +18207,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 462.28 724.535 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5fdcb8de-f8af-4af4-b79c-1702917636d5)
-    (property "Reference" "SW105" (id 0) (at 462.28 723.9 0))
+    (property "Reference" "SW109" (id 0) (at 462.28 723.9 0))
     (property "Value" "MX Switch" (id 1) (at 462.28 728.345 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -18258,7 +18291,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 133.35 725.805 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6092c102-d582-4f08-98f1-c5940ba00003)
-    (property "Reference" "SW109" (id 0) (at 133.985 727.075 0)
+    (property "Reference" "SW113" (id 0) (at 133.985 727.075 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MX Switch" (id 1) (at 133.35 729.615 0)
@@ -18289,7 +18322,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 132.08 683.895 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 609fe99c-d568-43e4-8164-f3599669c2c8)
-    (property "Reference" "SW81" (id 0) (at 131.445 683.895 0))
+    (property "Reference" "SW85" (id 0) (at 131.445 683.895 0))
     (property "Value" "MX Switch" (id 1) (at 135.89 683.895 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -18476,7 +18509,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 360.68 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 63123702-eb03-466c-ad4a-42fadc23cb4e)
-    (property "Reference" "SW38" (id 0) (at 360.68 566.42 0))
+    (property "Reference" "SW42" (id 0) (at 360.68 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 360.68 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -18594,7 +18627,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 81.28 643.255 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 63f94997-6c59-4dda-960a-22df370e722d)
-    (property "Reference" "SW62" (id 0) (at 82.55 640.715 90)
+    (property "Reference" "SW66" (id 0) (at 82.55 640.715 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 85.09 643.255 0)
@@ -18625,7 +18658,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 233.68 643.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 643ae80f-84a8-47b3-a590-280da48824df)
-    (property "Reference" "SW68" (id 0) (at 233.68 642.62 0))
+    (property "Reference" "SW72" (id 0) (at 233.68 642.62 0))
     (property "Value" "MX Switch" (id 1) (at 233.68 647.065 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -19186,7 +19219,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 487.68 724.535 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6933480a-c23d-4ac5-a571-bcc2ebcf8a4a)
-    (property "Reference" "SW106" (id 0) (at 487.68 723.9 0))
+    (property "Reference" "SW110" (id 0) (at 487.68 723.9 0))
     (property "Value" "MX Switch" (id 1) (at 487.68 728.345 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -19215,7 +19248,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 182.88 683.895 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 699a59ce-0a9e-4620-ad12-dbb937247734)
-    (property "Reference" "SW83" (id 0) (at 182.88 683.26 0))
+    (property "Reference" "SW87" (id 0) (at 182.88 683.26 0))
     (property "Value" "MX Switch" (id 1) (at 182.88 687.705 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -19568,7 +19601,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 309.88 683.895 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6c13e468-d0c9-4405-be60-cac16ce1b060)
-    (property "Reference" "SW88" (id 0) (at 309.88 683.26 0))
+    (property "Reference" "SW92" (id 0) (at 309.88 683.26 0))
     (property "Value" "MX Switch" (id 1) (at 309.88 687.705 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -19654,7 +19687,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 311.15 530.225 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6d83b622-935f-4442-9a43-08d917ad44ec)
-    (property "Reference" "SW23" (id 0) (at 310.515 530.86 90)
+    (property "Reference" "SW26" (id 0) (at 310.515 530.86 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 314.96 530.225 0)
@@ -20039,7 +20072,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 106.68 724.535 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 71ba0141-6554-4b36-a0e0-76f02f21e976)
-    (property "Reference" "SW97" (id 0) (at 102.235 722.63 0)
+    (property "Reference" "SW101" (id 0) (at 102.235 722.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 106.68 728.345 0)
@@ -20088,7 +20121,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 233.68 724.535 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7217c556-750f-4341-a7c6-6599d3941f97)
-    (property "Reference" "SW99" (id 0) (at 229.235 721.36 0)
+    (property "Reference" "SW103" (id 0) (at 229.235 721.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 233.68 728.345 0)
@@ -20539,7 +20572,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 82.55 725.805 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 79a03896-284a-4bb3-b3dc-f47305f2821b)
-    (property "Reference" "SW107" (id 0) (at 83.185 727.075 90)
+    (property "Reference" "SW111" (id 0) (at 83.185 727.075 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 86.36 725.805 0)
@@ -21015,7 +21048,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 132.08 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 80322963-dd78-4403-bf82-751f46283481)
-    (property "Reference" "SW29" (id 0) (at 132.08 566.42 0))
+    (property "Reference" "SW33" (id 0) (at 132.08 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 132.08 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -21640,7 +21673,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 107.95 725.805 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 89956380-c54b-4a40-85fb-a9a5dcbe0164)
-    (property "Reference" "SW108" (id 0) (at 102.235 727.71 0)
+    (property "Reference" "SW112" (id 0) (at 102.235 727.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 107.95 729.615 0)
@@ -21771,7 +21804,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 487.68 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8a9142c1-0a69-4995-8a72-7be218107b90)
-    (property "Reference" "SW61" (id 0) (at 487.68 604.52 0))
+    (property "Reference" "SW65" (id 0) (at 487.68 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 487.68 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -21800,7 +21833,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 157.48 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8b281689-b884-4a38-a18a-3af5d05f142b)
-    (property "Reference" "SW30" (id 0) (at 157.48 566.42 0))
+    (property "Reference" "SW34" (id 0) (at 157.48 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 157.48 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -22258,7 +22291,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 361.95 725.805 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9139cc2d-5361-4ac3-8785-9cbdfd1e8b95)
-    (property "Reference" "SW112" (id 0) (at 362.585 723.265 90))
+    (property "Reference" "SW116" (id 0) (at 362.585 723.265 90))
     (property "Value" "MX Switch" (id 1) (at 361.95 729.615 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -22844,7 +22877,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 132.08 724.535 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 986109a7-f31b-4471-8a8a-9be4b21158c3)
-    (property "Reference" "SW98" (id 0) (at 132.715 721.36 0)
+    (property "Reference" "SW102" (id 0) (at 132.715 721.36 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MX Switch" (id 1) (at 132.08 728.345 0)
@@ -23018,7 +23051,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 208.28 643.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9a537fb9-0d29-411f-8257-dcd19f1b7cc0)
-    (property "Reference" "SW67" (id 0) (at 208.28 642.62 0))
+    (property "Reference" "SW71" (id 0) (at 208.28 642.62 0))
     (property "Value" "MX Switch" (id 1) (at 208.28 647.065 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -23151,7 +23184,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 182.88 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9bf41721-e87a-4627-9485-015e7b4765fb)
-    (property "Reference" "SW31" (id 0) (at 182.88 566.42 0))
+    (property "Reference" "SW35" (id 0) (at 182.88 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 182.88 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -23199,7 +23232,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 412.75 725.805 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9c4d7941-7122-4064-8c8b-fe8abf4544d7)
-    (property "Reference" "SW113" (id 0) (at 410.21 727.075 0))
+    (property "Reference" "SW117" (id 0) (at 410.21 727.075 0))
     (property "Value" "MX Switch" (id 1) (at 412.75 729.615 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -23365,7 +23398,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 259.08 683.895 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9e4d2edc-c7af-47c5-a37e-01c399bd6b70)
-    (property "Reference" "SW86" (id 0) (at 259.08 683.26 0))
+    (property "Reference" "SW90" (id 0) (at 259.08 683.26 0))
     (property "Value" "MX Switch" (id 1) (at 259.08 687.705 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -23870,7 +23903,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 309.88 643.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a3038b33-81ad-45c3-ac6f-0345750293e0)
-    (property "Reference" "SW71" (id 0) (at 309.88 642.62 0))
+    (property "Reference" "SW75" (id 0) (at 309.88 642.62 0))
     (property "Value" "MX Switch" (id 1) (at 309.88 647.065 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -24346,7 +24379,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 157.48 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a7d747bc-4a44-4307-8f8b-e61140d016cc)
-    (property "Reference" "SW48" (id 0) (at 157.48 604.52 0))
+    (property "Reference" "SW52" (id 0) (at 157.48 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 157.48 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -24621,7 +24654,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 436.88 724.535 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid aa74939c-d307-4d05-9419-7f0e5f3b6103)
-    (property "Reference" "SW104" (id 0) (at 436.245 724.535 0))
+    (property "Reference" "SW108" (id 0) (at 436.245 724.535 0))
     (property "Value" "MX Switch" (id 1) (at 440.69 724.535 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -25611,7 +25644,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 233.68 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b4f8c021-afda-4629-8465-f41b2ee1cca8)
-    (property "Reference" "SW33" (id 0) (at 233.68 566.42 0))
+    (property "Reference" "SW37" (id 0) (at 233.68 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 233.68 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -25694,7 +25727,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 360.68 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b648f7b6-c335-4ab3-8eaa-3f0718f47460)
-    (property "Reference" "SW56" (id 0) (at 360.68 604.52 0))
+    (property "Reference" "SW60" (id 0) (at 360.68 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 360.68 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -26159,7 +26192,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 386.08 683.895 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid baf47152-6638-4fdf-a834-06d0253010be)
-    (property "Reference" "SW91" (id 0) (at 382.27 681.355 0)
+    (property "Reference" "SW95" (id 0) (at 382.27 681.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 386.08 687.705 0)
@@ -26547,7 +26580,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 387.35 685.165 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bdf62584-ff0b-4786-b56f-4d8b995af089)
-    (property "Reference" "SW94" (id 0) (at 382.27 685.8 0)
+    (property "Reference" "SW98" (id 0) (at 382.27 685.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 387.35 688.975 0)
@@ -26727,7 +26760,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 361.95 530.225 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c0e2981f-6e72-49e3-b724-5a86766fd3b5)
-    (property "Reference" "SW25" (id 0) (at 361.95 529.59 90)
+    (property "Reference" "SW28" (id 0) (at 361.95 529.59 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 361.95 534.035 0)
@@ -27441,7 +27474,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 387.35 530.225 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cb0ade6d-6ce9-405a-88f7-aa4067fc1b7b)
-    (property "Reference" "SW26" (id 0) (at 387.985 529.59 90)
+    (property "Reference" "SW29" (id 0) (at 387.985 529.59 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 387.35 534.035 0)
@@ -27529,7 +27562,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 386.08 643.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cc23179c-5606-4b02-93ec-967ac7223c17)
-    (property "Reference" "SW74" (id 0) (at 386.08 642.62 0))
+    (property "Reference" "SW78" (id 0) (at 386.08 642.62 0))
     (property "Value" "MX Switch" (id 1) (at 386.08 647.065 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -27558,7 +27591,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 259.08 643.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cc73b2f1-7a99-4363-8032-27fd700b8f46)
-    (property "Reference" "SW69" (id 0) (at 259.08 642.62 0))
+    (property "Reference" "SW73" (id 0) (at 259.08 642.62 0))
     (property "Value" "MX Switch" (id 1) (at 259.08 647.065 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -27987,7 +28020,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 335.28 724.535 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d2a5de99-dcb4-4fbe-bc57-d29a7d6ca241)
-    (property "Reference" "SW101" (id 0) (at 332.105 726.44 90)
+    (property "Reference" "SW105" (id 0) (at 332.105 726.44 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 335.28 728.345 0)
@@ -28083,7 +28116,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 335.28 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d30f9eb5-d0bc-44f7-87d5-62298bd8676d)
-    (property "Reference" "SW37" (id 0) (at 335.28 566.42 0))
+    (property "Reference" "SW41" (id 0) (at 335.28 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 335.28 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -28443,7 +28476,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 233.68 683.895 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d63a0e74-3410-4b8a-9909-a4442018e5b2)
-    (property "Reference" "SW85" (id 0) (at 233.68 683.26 0))
+    (property "Reference" "SW89" (id 0) (at 233.68 683.26 0))
     (property "Value" "MX Switch" (id 1) (at 233.68 687.705 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -28689,7 +28722,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 411.48 643.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d83b5d49-594d-4cb6-97ed-eb45e0577a1e)
-    (property "Reference" "SW75" (id 0) (at 407.67 640.715 0)
+    (property "Reference" "SW79" (id 0) (at 407.67 640.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 411.48 647.065 0)
@@ -29025,7 +29058,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 411.48 683.895 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dba7ee96-45f4-4439-82dd-6d38d5bd732e)
-    (property "Reference" "SW92" (id 0) (at 410.845 683.895 0))
+    (property "Reference" "SW96" (id 0) (at 410.845 683.895 0))
     (property "Value" "MX Switch" (id 1) (at 415.29 683.895 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -29167,7 +29200,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 106.68 683.895 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dc86a52d-4ea7-448c-b5cb-3b4f8f069358)
-    (property "Reference" "SW80" (id 0) (at 106.68 683.26 0))
+    (property "Reference" "SW84" (id 0) (at 106.68 683.26 0))
     (property "Value" "MX Switch" (id 1) (at 106.68 687.705 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -29196,7 +29229,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 462.28 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dcf5e53e-90ef-41cf-9fa0-7c36b5d466bc)
-    (property "Reference" "SW42" (id 0) (at 462.28 566.42 0))
+    (property "Reference" "SW46" (id 0) (at 462.28 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 462.28 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -29449,7 +29482,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 462.28 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid debb0bfd-4c94-4f2a-a4f4-d5288e627991)
-    (property "Reference" "SW60" (id 0) (at 462.28 604.52 0))
+    (property "Reference" "SW64" (id 0) (at 462.28 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 462.28 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -29531,7 +29564,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 81.28 567.055 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e0407e10-ca50-43b1-ab0f-6337ce32e815)
-    (property "Reference" "SW27" (id 0) (at 81.28 565.785 90))
+    (property "Reference" "SW31" (id 0) (at 81.28 565.785 90))
     (property "Value" "MX Switch" (id 1) (at 85.09 567.055 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -29590,7 +29623,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 259.08 567.055 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e178e46a-37e0-4da2-8a2b-0197930f7df5)
-    (property "Reference" "SW34" (id 0) (at 259.08 566.42 0))
+    (property "Reference" "SW38" (id 0) (at 259.08 566.42 0))
     (property "Value" "MX Switch" (id 1) (at 259.08 570.865 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -29856,7 +29889,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 234.95 725.805 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e470ba0d-ae44-4252-a22c-8caeddbbb1ad)
-    (property "Reference" "SW110" (id 0) (at 229.235 726.44 90)
+    (property "Reference" "SW114" (id 0) (at 229.235 726.44 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MX Switch" (id 1) (at 238.76 725.805 0)
@@ -30096,7 +30129,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 208.28 683.895 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e7c202c8-1b3f-4ba9-ac23-fc0675537766)
-    (property "Reference" "SW84" (id 0) (at 208.28 683.26 0))
+    (property "Reference" "SW88" (id 0) (at 208.28 683.26 0))
     (property "Value" "MX Switch" (id 1) (at 208.28 687.705 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -30233,7 +30266,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 233.68 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e8e24948-75b3-405a-9e31-f23a29124be8)
-    (property "Reference" "SW51" (id 0) (at 233.68 604.52 0))
+    (property "Reference" "SW55" (id 0) (at 233.68 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 233.68 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -30529,7 +30562,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 157.48 643.255 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid eb7f43ae-a9ac-4b85-b425-a11f655f3d55)
-    (property "Reference" "SW65" (id 0) (at 157.48 642.62 0))
+    (property "Reference" "SW69" (id 0) (at 157.48 642.62 0))
     (property "Value" "MX Switch" (id 1) (at 157.48 647.065 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -31365,7 +31398,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 81.28 683.895 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f52ee6a2-0539-43ff-9494-cbd96894a073)
-    (property "Reference" "SW79" (id 0) (at 81.915 681.355 90)
+    (property "Reference" "SW83" (id 0) (at 81.915 681.355 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX Switch" (id 1) (at 85.09 683.895 0)
@@ -31525,7 +31558,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 259.08 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f7267e32-87f1-4f62-82da-2c287e34afb0)
-    (property "Reference" "SW52" (id 0) (at 259.08 604.52 0))
+    (property "Reference" "SW56" (id 0) (at 259.08 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 259.08 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -31664,7 +31697,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 284.48 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fa1a38da-530e-46b1-9ed1-e4a03bba1292)
-    (property "Reference" "SW53" (id 0) (at 284.48 604.52 0))
+    (property "Reference" "SW57" (id 0) (at 284.48 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 284.48 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -32268,7 +32301,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 309.88 724.535 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ff2bf2be-f1ca-49dd-9669-d66e3878875e)
-    (property "Reference" "SW100" (id 0) (at 308.61 724.535 90))
+    (property "Reference" "SW104" (id 0) (at 308.61 724.535 90))
     (property "Value" "MX Switch" (id 1) (at 309.88 728.345 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -32334,7 +32367,7 @@
   (symbol (lib_id "acheronSymbols:Mechanical_Switch") (at 386.08 605.155 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ff89ef24-ae2e-49e5-bf61-de2d50e752b6)
-    (property "Reference" "SW57" (id 0) (at 386.08 604.52 0))
+    (property "Reference" "SW61" (id 0) (at 386.08 604.52 0))
     (property "Value" "MX Switch" (id 1) (at 386.08 608.965 0)
       (effects (font (size 0.762 0.762)) hide)
     )
@@ -34469,278 +34502,281 @@
     (path "/1e26cd5b-374d-4dac-bccc-919ee34be9a1"
       (reference "SW22") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/6d83b622-935f-4442-9a43-08d917ad44ec"
+    (path "/4942c1a8-053a-4b0f-90b9-23dcf4f66939"
       (reference "SW23") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/27637d1e-70d0-4f91-8b51-9ce03eb1cab3"
-      (reference "SW24") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
-    )
-    (path "/c0e2981f-6e72-49e3-b724-5a86766fd3b5"
-      (reference "SW25") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
-    )
-    (path "/cb0ade6d-6ce9-405a-88f7-aa4067fc1b7b"
+    (path "/6d83b622-935f-4442-9a43-08d917ad44ec"
       (reference "SW26") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/e0407e10-ca50-43b1-ab0f-6337ce32e815"
+    (path "/27637d1e-70d0-4f91-8b51-9ce03eb1cab3"
       (reference "SW27") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/08cdf901-feab-4882-b6e8-474961a26fa7"
+    (path "/c0e2981f-6e72-49e3-b724-5a86766fd3b5"
       (reference "SW28") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/80322963-dd78-4403-bf82-751f46283481"
+    (path "/cb0ade6d-6ce9-405a-88f7-aa4067fc1b7b"
       (reference "SW29") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/8b281689-b884-4a38-a18a-3af5d05f142b"
-      (reference "SW30") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
-    )
-    (path "/9bf41721-e87a-4627-9485-015e7b4765fb"
+    (path "/e0407e10-ca50-43b1-ab0f-6337ce32e815"
       (reference "SW31") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/52ad03b1-45f2-4825-835e-0065a02c487a"
+    (path "/08cdf901-feab-4882-b6e8-474961a26fa7"
       (reference "SW32") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/b4f8c021-afda-4629-8465-f41b2ee1cca8"
+    (path "/80322963-dd78-4403-bf82-751f46283481"
       (reference "SW33") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/e178e46a-37e0-4da2-8a2b-0197930f7df5"
+    (path "/8b281689-b884-4a38-a18a-3af5d05f142b"
       (reference "SW34") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/4752c9df-9c7f-4605-b23f-d0edcc774fad"
+    (path "/9bf41721-e87a-4627-9485-015e7b4765fb"
       (reference "SW35") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/25a64a7b-f284-4e7d-a15a-8a8f8c250415"
+    (path "/52ad03b1-45f2-4825-835e-0065a02c487a"
       (reference "SW36") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/d30f9eb5-d0bc-44f7-87d5-62298bd8676d"
+    (path "/b4f8c021-afda-4629-8465-f41b2ee1cca8"
       (reference "SW37") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/63123702-eb03-466c-ad4a-42fadc23cb4e"
+    (path "/e178e46a-37e0-4da2-8a2b-0197930f7df5"
       (reference "SW38") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/403c4900-f0cc-4851-87e9-4ed0bb65c640"
+    (path "/4752c9df-9c7f-4605-b23f-d0edcc774fad"
       (reference "SW39") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/02464f5b-5885-4574-afef-09ed51d4289c"
-      (reference "SW40") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX200")
+    (path "/25a64a7b-f284-4e7d-a15a-8a8f8c250415"
+      (reference "SW40") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/0657132a-28f4-4331-8a96-f732e0233a48"
+    (path "/d30f9eb5-d0bc-44f7-87d5-62298bd8676d"
       (reference "SW41") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/dcf5e53e-90ef-41cf-9fa0-7c36b5d466bc"
+    (path "/63123702-eb03-466c-ad4a-42fadc23cb4e"
       (reference "SW42") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/022f6b2d-5d00-47f4-b80b-a31f803cb634"
+    (path "/403c4900-f0cc-4851-87e9-4ed0bb65c640"
       (reference "SW43") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/55a6093b-4b56-4f35-8909-12570f205413"
-      (reference "SW44") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
+    (path "/02464f5b-5885-4574-afef-09ed51d4289c"
+      (reference "SW44") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX200")
     )
-    (path "/586b872d-efef-492b-80c5-5980c362aba6"
-      (reference "SW45") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX150")
+    (path "/0657132a-28f4-4331-8a96-f732e0233a48"
+      (reference "SW45") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/2ea1c4ea-4f70-4507-8dc2-6fc95dc75405"
+    (path "/dcf5e53e-90ef-41cf-9fa0-7c36b5d466bc"
       (reference "SW46") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/21b38d8f-fb6f-4e59-9ba3-2b4657c2aec4"
+    (path "/022f6b2d-5d00-47f4-b80b-a31f803cb634"
       (reference "SW47") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/a7d747bc-4a44-4307-8f8b-e61140d016cc"
+    (path "/55a6093b-4b56-4f35-8909-12570f205413"
       (reference "SW48") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/148cf4c2-0cb0-418d-ba13-f7f207788d20"
-      (reference "SW49") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
+    (path "/586b872d-efef-492b-80c5-5980c362aba6"
+      (reference "SW49") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX150")
     )
-    (path "/0510b995-8414-47ed-beb9-0619309a0d4f"
+    (path "/2ea1c4ea-4f70-4507-8dc2-6fc95dc75405"
       (reference "SW50") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/e8e24948-75b3-405a-9e31-f23a29124be8"
+    (path "/21b38d8f-fb6f-4e59-9ba3-2b4657c2aec4"
       (reference "SW51") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/f7267e32-87f1-4f62-82da-2c287e34afb0"
+    (path "/a7d747bc-4a44-4307-8f8b-e61140d016cc"
       (reference "SW52") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/fa1a38da-530e-46b1-9ed1-e4a03bba1292"
+    (path "/148cf4c2-0cb0-418d-ba13-f7f207788d20"
       (reference "SW53") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/2af6d6f9-c5ad-468f-94ea-77683b723dd2"
+    (path "/0510b995-8414-47ed-beb9-0619309a0d4f"
       (reference "SW54") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/24664260-bb4b-4d79-aa14-e57691e17691"
+    (path "/e8e24948-75b3-405a-9e31-f23a29124be8"
       (reference "SW55") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/b648f7b6-c335-4ab3-8eaa-3f0718f47460"
+    (path "/f7267e32-87f1-4f62-82da-2c287e34afb0"
       (reference "SW56") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/ff89ef24-ae2e-49e5-bf61-de2d50e752b6"
+    (path "/fa1a38da-530e-46b1-9ed1-e4a03bba1292"
       (reference "SW57") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/09a08b9c-5373-4fb5-a306-b3a41d2f8cc0"
-      (reference "SW58") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX150")
+    (path "/2af6d6f9-c5ad-468f-94ea-77683b723dd2"
+      (reference "SW58") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/4564419e-63ad-4ceb-8e60-b58693fb2aca"
+    (path "/24664260-bb4b-4d79-aa14-e57691e17691"
       (reference "SW59") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/debb0bfd-4c94-4f2a-a4f4-d5288e627991"
+    (path "/b648f7b6-c335-4ab3-8eaa-3f0718f47460"
       (reference "SW60") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/8a9142c1-0a69-4995-8a72-7be218107b90"
+    (path "/ff89ef24-ae2e-49e5-bf61-de2d50e752b6"
       (reference "SW61") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/63f94997-6c59-4dda-960a-22df370e722d"
-      (reference "SW62") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX175")
+    (path "/09a08b9c-5373-4fb5-a306-b3a41d2f8cc0"
+      (reference "SW62") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX150")
     )
-    (path "/53b6b176-9a32-4506-a6e5-30d843f6f6bf"
+    (path "/4564419e-63ad-4ceb-8e60-b58693fb2aca"
       (reference "SW63") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/2a3e789c-d99e-479b-9485-5934bd7fea34"
+    (path "/debb0bfd-4c94-4f2a-a4f4-d5288e627991"
       (reference "SW64") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/eb7f43ae-a9ac-4b85-b425-a11f655f3d55"
+    (path "/8a9142c1-0a69-4995-8a72-7be218107b90"
       (reference "SW65") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/4eaa9d5c-972f-42ed-88e5-fbbcf06b3f9b"
-      (reference "SW66") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
+    (path "/63f94997-6c59-4dda-960a-22df370e722d"
+      (reference "SW66") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX175")
     )
-    (path "/9a537fb9-0d29-411f-8257-dcd19f1b7cc0"
+    (path "/53b6b176-9a32-4506-a6e5-30d843f6f6bf"
       (reference "SW67") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/643ae80f-84a8-47b3-a590-280da48824df"
+    (path "/2a3e789c-d99e-479b-9485-5934bd7fea34"
       (reference "SW68") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/cc73b2f1-7a99-4363-8032-27fd700b8f46"
+    (path "/eb7f43ae-a9ac-4b85-b425-a11f655f3d55"
       (reference "SW69") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/369e248e-7a7f-47ef-9bba-5e0ef83a2a5a"
+    (path "/4eaa9d5c-972f-42ed-88e5-fbbcf06b3f9b"
       (reference "SW70") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/a3038b33-81ad-45c3-ac6f-0345750293e0"
+    (path "/9a537fb9-0d29-411f-8257-dcd19f1b7cc0"
       (reference "SW71") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/4308f941-2da7-4c9e-b0a6-9fa4504667f8"
+    (path "/643ae80f-84a8-47b3-a590-280da48824df"
       (reference "SW72") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/47e73c4b-0a80-424e-909c-ec7b0aff981e"
+    (path "/cc73b2f1-7a99-4363-8032-27fd700b8f46"
       (reference "SW73") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/cc23179c-5606-4b02-93ec-967ac7223c17"
+    (path "/369e248e-7a7f-47ef-9bba-5e0ef83a2a5a"
       (reference "SW74") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/d83b5d49-594d-4cb6-97ed-eb45e0577a1e"
-      (reference "SW75") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX225R")
+    (path "/a3038b33-81ad-45c3-ac6f-0345750293e0"
+      (reference "SW75") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/1f08b8cd-1eb0-4d99-a47b-b3626b7135a0"
+    (path "/4308f941-2da7-4c9e-b0a6-9fa4504667f8"
       (reference "SW76") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/5e46e129-6b9f-4cdb-9a39-b325a02605ce"
-      (reference "SW77") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
+    (path "/47e73c4b-0a80-424e-909c-ec7b0aff981e"
+      (reference "SW77") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/424d872f-e98f-4510-a79d-7eccab44f8fa"
-      (reference "SW78") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX_ISOEnter_Horizontal")
+    (path "/cc23179c-5606-4b02-93ec-967ac7223c17"
+      (reference "SW78") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/f52ee6a2-0539-43ff-9494-cbd96894a073"
-      (reference "SW79") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX225")
+    (path "/d83b5d49-594d-4cb6-97ed-eb45e0577a1e"
+      (reference "SW79") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX225R")
     )
-    (path "/dc86a52d-4ea7-448c-b5cb-3b4f8f069358"
+    (path "/1f08b8cd-1eb0-4d99-a47b-b3626b7135a0"
       (reference "SW80") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/609fe99c-d568-43e4-8164-f3599669c2c8"
-      (reference "SW81") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
+    (path "/5e46e129-6b9f-4cdb-9a39-b325a02605ce"
+      (reference "SW81") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
     )
-    (path "/10b9194f-7079-4269-bc8f-0cf247d6d78e"
-      (reference "SW82") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
+    (path "/424d872f-e98f-4510-a79d-7eccab44f8fa"
+      (reference "SW82") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX_ISOEnter_Horizontal")
     )
-    (path "/699a59ce-0a9e-4620-ad12-dbb937247734"
-      (reference "SW83") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
+    (path "/f52ee6a2-0539-43ff-9494-cbd96894a073"
+      (reference "SW83") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX225")
     )
-    (path "/e7c202c8-1b3f-4ba9-ac23-fc0675537766"
+    (path "/dc86a52d-4ea7-448c-b5cb-3b4f8f069358"
       (reference "SW84") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/d63a0e74-3410-4b8a-9909-a4442018e5b2"
+    (path "/609fe99c-d568-43e4-8164-f3599669c2c8"
       (reference "SW85") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/9e4d2edc-c7af-47c5-a37e-01c399bd6b70"
+    (path "/10b9194f-7079-4269-bc8f-0cf247d6d78e"
       (reference "SW86") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/5210651b-beff-4474-8f1e-1fbf0d8d0c31"
+    (path "/699a59ce-0a9e-4620-ad12-dbb937247734"
       (reference "SW87") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/6c13e468-d0c9-4405-be60-cac16ce1b060"
+    (path "/e7c202c8-1b3f-4ba9-ac23-fc0675537766"
       (reference "SW88") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/4967cd82-bbb2-4439-a8d4-e46a76d23759"
+    (path "/d63a0e74-3410-4b8a-9909-a4442018e5b2"
       (reference "SW89") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/18296d07-fc7e-4530-87dc-2689d6ff228d"
+    (path "/9e4d2edc-c7af-47c5-a37e-01c399bd6b70"
       (reference "SW90") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/baf47152-6638-4fdf-a834-06d0253010be"
-      (reference "SW91") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX275")
+    (path "/5210651b-beff-4474-8f1e-1fbf0d8d0c31"
+      (reference "SW91") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/dba7ee96-45f4-4439-82dd-6d38d5bd732e"
+    (path "/6c13e468-d0c9-4405-be60-cac16ce1b060"
       (reference "SW92") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/21209dc3-5692-4952-96c4-461338ab0293"
+    (path "/4967cd82-bbb2-4439-a8d4-e46a76d23759"
       (reference "SW93") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
+    (path "/18296d07-fc7e-4530-87dc-2689d6ff228d"
+      (reference "SW94") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
+    )
+    (path "/baf47152-6638-4fdf-a834-06d0253010be"
+      (reference "SW95") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX275")
+    )
+    (path "/dba7ee96-45f4-4439-82dd-6d38d5bd732e"
+      (reference "SW96") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
+    )
+    (path "/21209dc3-5692-4952-96c4-461338ab0293"
+      (reference "SW97") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
+    )
     (path "/bdf62584-ff0b-4786-b56f-4d8b995af089"
-      (reference "SW94") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX175")
+      (reference "SW98") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX175")
     )
     (path "/58da91e2-23d8-4d5e-8f75-a3cf800fb204"
-      (reference "SW95") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
+      (reference "SW99") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
     )
     (path "/08030982-03a3-491b-9f52-de682baa3c55"
-      (reference "SW96") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
-    )
-    (path "/71ba0141-6554-4b36-a0e0-76f02f21e976"
-      (reference "SW97") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
-    )
-    (path "/986109a7-f31b-4471-8a8a-9be4b21158c3"
-      (reference "SW98") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
-    )
-    (path "/7217c556-750f-4341-a7c6-6599d3941f97"
-      (reference "SW99") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX625R")
-    )
-    (path "/ff2bf2be-f1ca-49dd-9669-d66e3878875e"
       (reference "SW100") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
     )
-    (path "/d2a5de99-dcb4-4fbe-bc57-d29a7d6ca241"
+    (path "/71ba0141-6554-4b36-a0e0-76f02f21e976"
       (reference "SW101") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
     )
-    (path "/4327e9ee-1c8d-43f8-93f7-5e49b52b5f58"
+    (path "/986109a7-f31b-4471-8a8a-9be4b21158c3"
       (reference "SW102") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
     )
+    (path "/7217c556-750f-4341-a7c6-6599d3941f97"
+      (reference "SW103") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX625R")
+    )
+    (path "/ff2bf2be-f1ca-49dd-9669-d66e3878875e"
+      (reference "SW104") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
+    )
+    (path "/d2a5de99-dcb4-4fbe-bc57-d29a7d6ca241"
+      (reference "SW105") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
+    )
+    (path "/4327e9ee-1c8d-43f8-93f7-5e49b52b5f58"
+      (reference "SW106") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
+    )
     (path "/2519bc38-9cdc-4c68-91ea-78ff2a7079a2"
-      (reference "SW103") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
+      (reference "SW107") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX125")
     )
     (path "/aa74939c-d307-4d05-9419-7f0e5f3b6103"
-      (reference "SW104") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
-    )
-    (path "/5fdcb8de-f8af-4af4-b79c-1702917636d5"
-      (reference "SW105") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
-    )
-    (path "/6933480a-c23d-4ac5-a571-bcc2ebcf8a4a"
-      (reference "SW106") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
-    )
-    (path "/79a03896-284a-4bb3-b3dc-f47305f2821b"
-      (reference "SW107") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX150")
-    )
-    (path "/89956380-c54b-4a40-85fb-a9a5dcbe0164"
       (reference "SW108") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/6092c102-d582-4f08-98f1-c5940ba00003"
-      (reference "SW109") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX150")
+    (path "/5fdcb8de-f8af-4af4-b79c-1702917636d5"
+      (reference "SW109") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/e470ba0d-ae44-4252-a22c-8caeddbbb1ad"
-      (reference "SW110") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX700R")
+    (path "/6933480a-c23d-4ac5-a571-bcc2ebcf8a4a"
+      (reference "SW110") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/49a1ee40-4c31-49c7-8490-41d4ca2a5ea1"
+    (path "/79a03896-284a-4bb3-b3dc-f47305f2821b"
       (reference "SW111") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX150")
     )
-    (path "/9139cc2d-5361-4ac3-8785-9cbdfd1e8b95"
+    (path "/89956380-c54b-4a40-85fb-a9a5dcbe0164"
       (reference "SW112") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
     )
-    (path "/9c4d7941-7122-4064-8c8b-fe8abf4544d7"
+    (path "/6092c102-d582-4f08-98f1-c5940ba00003"
       (reference "SW113") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX150")
+    )
+    (path "/e470ba0d-ae44-4252-a22c-8caeddbbb1ad"
+      (reference "SW114") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX700R")
+    )
+    (path "/49a1ee40-4c31-49c7-8490-41d4ca2a5ea1"
+      (reference "SW115") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX150")
+    )
+    (path "/9139cc2d-5361-4ac3-8785-9cbdfd1e8b95"
+      (reference "SW116") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX100")
+    )
+    (path "/9c4d7941-7122-4064-8c8b-fe8abf4544d7"
+      (reference "SW117") (unit 1) (value "MX Switch") (footprint "acheron_MX_SolderMask:MX150")
     )
     (path "/e8e7d3b1-8eb6-45bd-bde6-881be9e1cb7e"
       (reference "U1") (unit 1) (value "USBLC6-2SC6") (footprint "acheron_Components:SOT-23-6")
